@@ -59,11 +59,11 @@
             // lblBannerBaoHanhSanPham
             // 
             this.lblBannerBaoHanhSanPham.AutoSize = true;
-            this.lblBannerBaoHanhSanPham.Font = new System.Drawing.Font("SVN-Beast", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblBannerBaoHanhSanPham.Font = new System.Drawing.Font("SVN-Beast", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblBannerBaoHanhSanPham.ForeColor = System.Drawing.Color.White;
-            this.lblBannerBaoHanhSanPham.Location = new System.Drawing.Point(500, 9);
+            this.lblBannerBaoHanhSanPham.Location = new System.Drawing.Point(352, 9);
             this.lblBannerBaoHanhSanPham.Name = "lblBannerBaoHanhSanPham";
-            this.lblBannerBaoHanhSanPham.Size = new System.Drawing.Size(343, 45);
+            this.lblBannerBaoHanhSanPham.Size = new System.Drawing.Size(427, 51);
             this.lblBannerBaoHanhSanPham.TabIndex = 2;
             this.lblBannerBaoHanhSanPham.Text = "BẢO HÀNH SẢN PHẨM";
             // 

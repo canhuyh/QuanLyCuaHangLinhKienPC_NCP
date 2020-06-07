@@ -113,11 +113,11 @@
             // 
             this.lblBannerSanPham.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lblBannerSanPham.AutoSize = true;
-            this.lblBannerSanPham.Font = new System.Drawing.Font("SVN-Beast", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblBannerSanPham.Font = new System.Drawing.Font("SVN-Beast", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblBannerSanPham.ForeColor = System.Drawing.Color.White;
             this.lblBannerSanPham.Location = new System.Drawing.Point(570, 9);
             this.lblBannerSanPham.Name = "lblBannerSanPham";
-            this.lblBannerSanPham.Size = new System.Drawing.Size(173, 45);
+            this.lblBannerSanPham.Size = new System.Drawing.Size(214, 51);
             this.lblBannerSanPham.TabIndex = 5;
             this.lblBannerSanPham.Text = "SẢN PHẨM";
             // 

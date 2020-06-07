@@ -39,12 +39,12 @@
             this.txtTimKiemNhanh = new Bunifu.Framework.UI.BunifuMetroTextbox();
             this.lblTimKiemNhanh = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.dgvDanhSachNV = new Bunifu.Framework.UI.BunifuCustomDataGrid();
-            this.bunifuCustomLabel4 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.btnLapHoaDon = new Bunifu.Framework.UI.BunifuThinButton2();
             this.colMaHD = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colNgayLap = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colNhanVienLap = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colSDTKhachHang = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.bunifuCustomLabel4 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.btnLapHoaDon = new Bunifu.Framework.UI.BunifuThinButton2();
             ((System.ComponentModel.ISupportInitialize)(this.dgvDanhSachNV)).BeginInit();
             this.SuspendLayout();
             // 
@@ -57,11 +57,11 @@
             // 
             this.lblBannerQuanLyNhanVien.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lblBannerQuanLyNhanVien.AutoSize = true;
-            this.lblBannerQuanLyNhanVien.Font = new System.Drawing.Font("SVN-Beast", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblBannerQuanLyNhanVien.Font = new System.Drawing.Font("SVN-Beast", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblBannerQuanLyNhanVien.ForeColor = System.Drawing.Color.White;
-            this.lblBannerQuanLyNhanVien.Location = new System.Drawing.Point(382, 9);
+            this.lblBannerQuanLyNhanVien.Location = new System.Drawing.Point(336, 5);
             this.lblBannerQuanLyNhanVien.Name = "lblBannerQuanLyNhanVien";
-            this.lblBannerQuanLyNhanVien.Size = new System.Drawing.Size(350, 45);
+            this.lblBannerQuanLyNhanVien.Size = new System.Drawing.Size(434, 51);
             this.lblBannerQuanLyNhanVien.TabIndex = 3;
             this.lblBannerQuanLyNhanVien.Text = "DANH SÁCH HÓA ĐƠN";
             // 
@@ -144,6 +144,30 @@
             this.dgvDanhSachNV.Size = new System.Drawing.Size(1088, 585);
             this.dgvDanhSachNV.TabIndex = 32;
             // 
+            // colMaHD
+            // 
+            this.colMaHD.HeaderText = "Mã hóa đơn";
+            this.colMaHD.Name = "colMaHD";
+            this.colMaHD.ReadOnly = true;
+            // 
+            // colNgayLap
+            // 
+            this.colNgayLap.HeaderText = "Ngày lập";
+            this.colNgayLap.Name = "colNgayLap";
+            this.colNgayLap.ReadOnly = true;
+            // 
+            // colNhanVienLap
+            // 
+            this.colNhanVienLap.HeaderText = "Nhân viên lập";
+            this.colNhanVienLap.Name = "colNhanVienLap";
+            this.colNhanVienLap.ReadOnly = true;
+            // 
+            // colSDTKhachHang
+            // 
+            this.colSDTKhachHang.HeaderText = "SDT Khách hàng";
+            this.colSDTKhachHang.Name = "colSDTKhachHang";
+            this.colSDTKhachHang.ReadOnly = true;
+            // 
             // bunifuCustomLabel4
             // 
             this.bunifuCustomLabel4.AutoSize = true;
@@ -180,30 +204,6 @@
             this.btnLapHoaDon.TabIndex = 36;
             this.btnLapHoaDon.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btnLapHoaDon.Click += new System.EventHandler(this.btnLapHoaDon_Click);
-            // 
-            // colMaHD
-            // 
-            this.colMaHD.HeaderText = "Mã hóa đơn";
-            this.colMaHD.Name = "colMaHD";
-            this.colMaHD.ReadOnly = true;
-            // 
-            // colNgayLap
-            // 
-            this.colNgayLap.HeaderText = "Ngày lập";
-            this.colNgayLap.Name = "colNgayLap";
-            this.colNgayLap.ReadOnly = true;
-            // 
-            // colNhanVienLap
-            // 
-            this.colNhanVienLap.HeaderText = "Nhân viên lập";
-            this.colNhanVienLap.Name = "colNhanVienLap";
-            this.colNhanVienLap.ReadOnly = true;
-            // 
-            // colSDTKhachHang
-            // 
-            this.colSDTKhachHang.HeaderText = "SDT Khách hàng";
-            this.colSDTKhachHang.Name = "colSDTKhachHang";
-            this.colSDTKhachHang.ReadOnly = true;
             // 
             // frmQuanLyHoaDon
             // 

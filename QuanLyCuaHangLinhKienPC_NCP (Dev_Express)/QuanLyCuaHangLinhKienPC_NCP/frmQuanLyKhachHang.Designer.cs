@@ -76,11 +76,11 @@
             // 
             this.lblBannerKhachHang.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lblBannerKhachHang.AutoSize = true;
-            this.lblBannerKhachHang.Font = new System.Drawing.Font("SVN-Beast", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblBannerKhachHang.Font = new System.Drawing.Font("SVN-Beast", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblBannerKhachHang.ForeColor = System.Drawing.Color.White;
-            this.lblBannerKhachHang.Location = new System.Drawing.Point(330, 9);
+            this.lblBannerKhachHang.Location = new System.Drawing.Point(284, 9);
             this.lblBannerKhachHang.Name = "lblBannerKhachHang";
-            this.lblBannerKhachHang.Size = new System.Drawing.Size(216, 45);
+            this.lblBannerKhachHang.Size = new System.Drawing.Size(265, 51);
             this.lblBannerKhachHang.TabIndex = 3;
             this.lblBannerKhachHang.Text = "KHÁCH HÀNG";
             // 

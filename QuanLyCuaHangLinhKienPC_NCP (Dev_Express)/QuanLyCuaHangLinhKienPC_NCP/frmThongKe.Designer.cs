@@ -41,11 +41,11 @@
             // lblThongKe
             // 
             this.lblThongKe.AutoSize = true;
-            this.lblThongKe.Font = new System.Drawing.Font("SVN-Beast", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblThongKe.Font = new System.Drawing.Font("SVN-Beast", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblThongKe.ForeColor = System.Drawing.Color.White;
             this.lblThongKe.Location = new System.Drawing.Point(549, 9);
             this.lblThongKe.Name = "lblThongKe";
-            this.lblThongKe.Size = new System.Drawing.Size(152, 45);
+            this.lblThongKe.Size = new System.Drawing.Size(187, 51);
             this.lblThongKe.TabIndex = 3;
             this.lblThongKe.Text = "Thống kê";
             // 

@@ -29,9 +29,9 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            BunifuAnimatorNS.Animation animation2 = new BunifuAnimatorNS.Animation();
+            BunifuAnimatorNS.Animation animation1 = new BunifuAnimatorNS.Animation();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmQuanLy));
-            BunifuAnimatorNS.Animation animation3 = new BunifuAnimatorNS.Animation();
-            BunifuAnimatorNS.Animation animation4 = new BunifuAnimatorNS.Animation();
             this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.header = new System.Windows.Forms.Panel();
             this.btnRestaurar = new Bunifu.Framework.UI.BunifuImageButton();
@@ -46,7 +46,6 @@
             this.menuChild = new Bunifu.Framework.UI.BunifuGradientPanel();
             this.btnQuanLySanPham = new Bunifu.Framework.UI.BunifuFlatButton();
             this.btnQuanLyKhachHang = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.btnNhapHang = new Bunifu.Framework.UI.BunifuFlatButton();
             this.btnThongKe = new Bunifu.Framework.UI.BunifuFlatButton();
             this.btnBaoHanh = new Bunifu.Framework.UI.BunifuFlatButton();
             this.btnQuanLyNhaCungCap = new Bunifu.Framework.UI.BunifuFlatButton();
@@ -235,7 +234,6 @@
             this.menuChild.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.menuChild.Controls.Add(this.btnQuanLySanPham);
             this.menuChild.Controls.Add(this.btnQuanLyKhachHang);
-            this.menuChild.Controls.Add(this.btnNhapHang);
             this.menuChild.Controls.Add(this.btnThongKe);
             this.menuChild.Controls.Add(this.btnBaoHanh);
             this.menuChild.Controls.Add(this.btnQuanLyNhaCungCap);
@@ -278,7 +276,7 @@
             this.btnQuanLySanPham.IconVisible = true;
             this.btnQuanLySanPham.IconZoom = 50D;
             this.btnQuanLySanPham.IsTab = true;
-            this.btnQuanLySanPham.Location = new System.Drawing.Point(0, 232);
+            this.btnQuanLySanPham.Location = new System.Drawing.Point(0, 273);
             this.btnQuanLySanPham.Name = "btnQuanLySanPham";
             this.btnQuanLySanPham.Normalcolor = System.Drawing.Color.Transparent;
             this.btnQuanLySanPham.OnHovercolor = System.Drawing.Color.Coral;
@@ -316,7 +314,7 @@
             this.btnQuanLyKhachHang.IconVisible = true;
             this.btnQuanLyKhachHang.IconZoom = 50D;
             this.btnQuanLyKhachHang.IsTab = true;
-            this.btnQuanLyKhachHang.Location = new System.Drawing.Point(0, 178);
+            this.btnQuanLyKhachHang.Location = new System.Drawing.Point(0, 219);
             this.btnQuanLyKhachHang.Name = "btnQuanLyKhachHang";
             this.btnQuanLyKhachHang.Normalcolor = System.Drawing.Color.Transparent;
             this.btnQuanLyKhachHang.OnHovercolor = System.Drawing.Color.Coral;
@@ -329,44 +327,6 @@
             this.btnQuanLyKhachHang.Textcolor = System.Drawing.Color.White;
             this.btnQuanLyKhachHang.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnQuanLyKhachHang.Click += new System.EventHandler(this.btnQuanLyKhachHang_Click);
-            // 
-            // btnNhapHang
-            // 
-            this.btnNhapHang.Active = false;
-            this.btnNhapHang.Activecolor = System.Drawing.Color.Coral;
-            this.btnNhapHang.BackColor = System.Drawing.Color.Transparent;
-            this.btnNhapHang.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnNhapHang.BorderRadius = 0;
-            this.btnNhapHang.ButtonText = "       Nhập Hàng";
-            this.btnNhapHang.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.logoAnimator.SetDecoration(this.btnNhapHang, BunifuAnimatorNS.DecorationType.None);
-            this.PanelAnimator.SetDecoration(this.btnNhapHang, BunifuAnimatorNS.DecorationType.None);
-            this.btnNhapHang.DisabledColor = System.Drawing.Color.Gray;
-            this.btnNhapHang.Iconcolor = System.Drawing.Color.Transparent;
-            this.btnNhapHang.Iconimage = ((System.Drawing.Image)(resources.GetObject("btnNhapHang.Iconimage")));
-            this.btnNhapHang.Iconimage_right = null;
-            this.btnNhapHang.Iconimage_right_Selected = null;
-            this.btnNhapHang.Iconimage_Selected = null;
-            this.btnNhapHang.IconMarginLeft = 0;
-            this.btnNhapHang.IconMarginRight = 0;
-            this.btnNhapHang.IconRightVisible = true;
-            this.btnNhapHang.IconRightZoom = 0D;
-            this.btnNhapHang.IconVisible = true;
-            this.btnNhapHang.IconZoom = 50D;
-            this.btnNhapHang.IsTab = true;
-            this.btnNhapHang.Location = new System.Drawing.Point(0, 502);
-            this.btnNhapHang.Name = "btnNhapHang";
-            this.btnNhapHang.Normalcolor = System.Drawing.Color.Transparent;
-            this.btnNhapHang.OnHovercolor = System.Drawing.Color.Coral;
-            this.btnNhapHang.OnHoverTextColor = System.Drawing.Color.White;
-            this.btnNhapHang.selected = false;
-            this.btnNhapHang.Size = new System.Drawing.Size(228, 48);
-            this.btnNhapHang.TabIndex = 5;
-            this.btnNhapHang.Text = "       Nhập Hàng";
-            this.btnNhapHang.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnNhapHang.Textcolor = System.Drawing.Color.White;
-            this.btnNhapHang.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnNhapHang.Click += new System.EventHandler(this.btnNhapHang_Click);
             // 
             // btnThongKe
             // 
@@ -392,7 +352,7 @@
             this.btnThongKe.IconVisible = true;
             this.btnThongKe.IconZoom = 50D;
             this.btnThongKe.IsTab = true;
-            this.btnThongKe.Location = new System.Drawing.Point(0, 448);
+            this.btnThongKe.Location = new System.Drawing.Point(0, 489);
             this.btnThongKe.Name = "btnThongKe";
             this.btnThongKe.Normalcolor = System.Drawing.Color.Transparent;
             this.btnThongKe.OnHovercolor = System.Drawing.Color.Coral;
@@ -429,7 +389,7 @@
             this.btnBaoHanh.IconVisible = true;
             this.btnBaoHanh.IconZoom = 50D;
             this.btnBaoHanh.IsTab = true;
-            this.btnBaoHanh.Location = new System.Drawing.Point(0, 394);
+            this.btnBaoHanh.Location = new System.Drawing.Point(0, 435);
             this.btnBaoHanh.Name = "btnBaoHanh";
             this.btnBaoHanh.Normalcolor = System.Drawing.Color.Transparent;
             this.btnBaoHanh.OnHovercolor = System.Drawing.Color.Coral;
@@ -467,7 +427,7 @@
             this.btnQuanLyNhaCungCap.IconVisible = true;
             this.btnQuanLyNhaCungCap.IconZoom = 50D;
             this.btnQuanLyNhaCungCap.IsTab = true;
-            this.btnQuanLyNhaCungCap.Location = new System.Drawing.Point(0, 340);
+            this.btnQuanLyNhaCungCap.Location = new System.Drawing.Point(0, 381);
             this.btnQuanLyNhaCungCap.Name = "btnQuanLyNhaCungCap";
             this.btnQuanLyNhaCungCap.Normalcolor = System.Drawing.Color.Transparent;
             this.btnQuanLyNhaCungCap.OnHovercolor = System.Drawing.Color.Coral;
@@ -505,7 +465,7 @@
             this.btnQuanLyHoaDon.IconVisible = true;
             this.btnQuanLyHoaDon.IconZoom = 50D;
             this.btnQuanLyHoaDon.IsTab = true;
-            this.btnQuanLyHoaDon.Location = new System.Drawing.Point(0, 286);
+            this.btnQuanLyHoaDon.Location = new System.Drawing.Point(0, 327);
             this.btnQuanLyHoaDon.Name = "btnQuanLyHoaDon";
             this.btnQuanLyHoaDon.Normalcolor = System.Drawing.Color.Transparent;
             this.btnQuanLyHoaDon.OnHovercolor = System.Drawing.Color.Coral;
@@ -543,7 +503,7 @@
             this.btnQuanLyNhanVien.IconVisible = true;
             this.btnQuanLyNhanVien.IconZoom = 50D;
             this.btnQuanLyNhanVien.IsTab = true;
-            this.btnQuanLyNhanVien.Location = new System.Drawing.Point(0, 124);
+            this.btnQuanLyNhanVien.Location = new System.Drawing.Point(0, 165);
             this.btnQuanLyNhanVien.Name = "btnQuanLyNhanVien";
             this.btnQuanLyNhanVien.Normalcolor = System.Drawing.Color.Transparent;
             this.btnQuanLyNhanVien.OnHovercolor = System.Drawing.Color.Coral;
@@ -581,7 +541,7 @@
             this.btnQuanLyTaiKhoan.IconVisible = true;
             this.btnQuanLyTaiKhoan.IconZoom = 50D;
             this.btnQuanLyTaiKhoan.IsTab = true;
-            this.btnQuanLyTaiKhoan.Location = new System.Drawing.Point(0, 70);
+            this.btnQuanLyTaiKhoan.Location = new System.Drawing.Point(0, 111);
             this.btnQuanLyTaiKhoan.Name = "btnQuanLyTaiKhoan";
             this.btnQuanLyTaiKhoan.Normalcolor = System.Drawing.Color.Transparent;
             this.btnQuanLyTaiKhoan.OnHovercolor = System.Drawing.Color.Coral;
@@ -633,22 +593,22 @@
             // 
             this.logoAnimator.AnimationType = BunifuAnimatorNS.AnimationType.ScaleAndRotate;
             this.logoAnimator.Cursor = null;
-            animation3.AnimateOnlyDifferences = true;
-            animation3.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation3.BlindCoeff")));
-            animation3.LeafCoeff = 0F;
-            animation3.MaxTime = 1F;
-            animation3.MinTime = 0F;
-            animation3.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation3.MosaicCoeff")));
-            animation3.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation3.MosaicShift")));
-            animation3.MosaicSize = 0;
-            animation3.Padding = new System.Windows.Forms.Padding(30);
-            animation3.RotateCoeff = 0.5F;
-            animation3.RotateLimit = 0.2F;
-            animation3.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation3.ScaleCoeff")));
-            animation3.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation3.SlideCoeff")));
-            animation3.TimeCoeff = 0F;
-            animation3.TransparencyCoeff = 0F;
-            this.logoAnimator.DefaultAnimation = animation3;
+            animation2.AnimateOnlyDifferences = true;
+            animation2.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.BlindCoeff")));
+            animation2.LeafCoeff = 0F;
+            animation2.MaxTime = 1F;
+            animation2.MinTime = 0F;
+            animation2.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.MosaicCoeff")));
+            animation2.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation2.MosaicShift")));
+            animation2.MosaicSize = 0;
+            animation2.Padding = new System.Windows.Forms.Padding(30);
+            animation2.RotateCoeff = 0.5F;
+            animation2.RotateLimit = 0.2F;
+            animation2.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.ScaleCoeff")));
+            animation2.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.SlideCoeff")));
+            animation2.TimeCoeff = 0F;
+            animation2.TransparencyCoeff = 0F;
+            this.logoAnimator.DefaultAnimation = animation2;
             // 
             // panel1
             // 
@@ -679,22 +639,22 @@
             // 
             this.PanelAnimator.AnimationType = BunifuAnimatorNS.AnimationType.HorizSlide;
             this.PanelAnimator.Cursor = null;
-            animation4.AnimateOnlyDifferences = true;
-            animation4.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation4.BlindCoeff")));
-            animation4.LeafCoeff = 0F;
-            animation4.MaxTime = 1F;
-            animation4.MinTime = 0F;
-            animation4.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation4.MosaicCoeff")));
-            animation4.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation4.MosaicShift")));
-            animation4.MosaicSize = 0;
-            animation4.Padding = new System.Windows.Forms.Padding(0);
-            animation4.RotateCoeff = 0F;
-            animation4.RotateLimit = 0F;
-            animation4.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation4.ScaleCoeff")));
-            animation4.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation4.SlideCoeff")));
-            animation4.TimeCoeff = 0F;
-            animation4.TransparencyCoeff = 0F;
-            this.PanelAnimator.DefaultAnimation = animation4;
+            animation1.AnimateOnlyDifferences = true;
+            animation1.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.BlindCoeff")));
+            animation1.LeafCoeff = 0F;
+            animation1.MaxTime = 1F;
+            animation1.MinTime = 0F;
+            animation1.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.MosaicCoeff")));
+            animation1.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation1.MosaicShift")));
+            animation1.MosaicSize = 0;
+            animation1.Padding = new System.Windows.Forms.Padding(0);
+            animation1.RotateCoeff = 0F;
+            animation1.RotateLimit = 0F;
+            animation1.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.ScaleCoeff")));
+            animation1.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.SlideCoeff")));
+            animation1.TimeCoeff = 0F;
+            animation1.TransparencyCoeff = 0F;
+            this.PanelAnimator.DefaultAnimation = animation1;
             // 
             // frmQuanLy
             // 
@@ -750,7 +710,6 @@
         private Bunifu.Framework.UI.BunifuDragControl bunifuDragControl1;
         private Bunifu.Framework.UI.BunifuFlatButton btnQuanLySanPham;
         private Bunifu.Framework.UI.BunifuFlatButton btnQuanLyKhachHang;
-        private Bunifu.Framework.UI.BunifuFlatButton btnNhapHang;
         private Bunifu.Framework.UI.BunifuFlatButton btnThongKe;
         private Bunifu.Framework.UI.BunifuFlatButton btnBaoHanh;
         private Bunifu.Framework.UI.BunifuFlatButton btnQuanLyHoaDon;

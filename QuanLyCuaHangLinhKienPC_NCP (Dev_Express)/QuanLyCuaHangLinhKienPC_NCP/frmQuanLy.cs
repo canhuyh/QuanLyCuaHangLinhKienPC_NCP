@@ -161,19 +161,19 @@ namespace QuanLyCuaHangLinhKienPC_NCP
             frmBH.Show();
         }
 
-        private void btnNhapHang_Click(object sender, EventArgs e)
-        {
-            panelContent.Controls.Clear();
-            frmNhapHang frmNH = new frmNhapHang()
-            {
-                Dock = DockStyle.Fill,
-                TopLevel = false,
-                TopMost = true,
-            };
-            panelContent.Controls.Add(frmNH);
-            frmNH.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            frmNH.Show();
-        }
+        //private void btnNhapHang_Click(object sender, EventArgs e)
+        //{
+        //    panelContent.Controls.Clear();
+        //    frmNhapHang frmNH = new frmNhapHang()
+        //    {
+        //        Dock = DockStyle.Fill,
+        //        TopLevel = false,
+        //        TopMost = true,
+        //    };
+        //    panelContent.Controls.Add(frmNH);
+        //    frmNH.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+        //    frmNH.Show();
+        //}
 
         private void btnQuanLyHoaDon_Click(object sender, EventArgs e)
         {

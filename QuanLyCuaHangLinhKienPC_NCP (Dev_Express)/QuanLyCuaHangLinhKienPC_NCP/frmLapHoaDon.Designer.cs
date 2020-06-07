@@ -29,33 +29,13 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmLapHoaDon));
-            this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
-            this.panelThongTinChung = new System.Windows.Forms.Panel();
-            this.cboMaNV = new System.Windows.Forms.ComboBox();
-            this.dtpNgayLap = new DevExpress.XtraEditors.DateEdit();
-            this.bunifuCustomLabel4 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.lblNgaySinh = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.lblDiaChi = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.lblMaNV = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.lblTenKH = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.lblNgayBan = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.txtSDT = new Bunifu.Framework.UI.BunifuMetroTextbox();
-            this.txtDiaChi = new Bunifu.Framework.UI.BunifuMetroTextbox();
-            this.txtTenKH = new Bunifu.Framework.UI.BunifuMetroTextbox();
-            this.txtTenNhanVien = new Bunifu.Framework.UI.BunifuMetroTextbox();
-            this.txtMaNV = new Bunifu.Framework.UI.BunifuMetroTextbox();
-            this.lblMaHD = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.lblThongTinChung = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.btnLuuKH = new Bunifu.Framework.UI.BunifuThinButton2();
-            this.btnTaoMoiKhachHang = new Bunifu.Framework.UI.BunifuThinButton2();
-            this.lblHoaDon = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.panel2 = new System.Windows.Forms.Panel();
             this.numericGiamGia = new DevExpress.XtraEditors.SpinEdit();
             this.numericSoLuong = new DevExpress.XtraEditors.SpinEdit();
             this.cboMaSP = new System.Windows.Forms.ComboBox();
@@ -78,368 +58,82 @@
             this.colGiaBan = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colGiaMua = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colThanhTien = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.btnHuyHoaDon = new Bunifu.Framework.UI.BunifuThinButton2();
             this.btnDong = new Bunifu.Framework.UI.BunifuThinButton2();
             this.btnReset = new Bunifu.Framework.UI.BunifuThinButton2();
             this.btnInHoaDon = new Bunifu.Framework.UI.BunifuThinButton2();
-            this.btnHuyHoaDon = new Bunifu.Framework.UI.BunifuThinButton2();
             this.btnLuuHoaDon = new Bunifu.Framework.UI.BunifuThinButton2();
-            this.panelThongTinChung.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dtpNgayLap.Properties.CalendarTimeProperties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dtpNgayLap.Properties)).BeginInit();
-            this.panel2.SuspendLayout();
+            this.lblHoaDon = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.panelThongTinChung = new System.Windows.Forms.Panel();
+            this.cboMaNV = new System.Windows.Forms.ComboBox();
+            this.dtpNgayLap = new DevExpress.XtraEditors.DateEdit();
+            this.bunifuCustomLabel4 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.lblNgaySinh = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.lblDiaChi = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.lblMaNV = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.lblTenKH = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.lblNgayBan = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.txtSDT = new Bunifu.Framework.UI.BunifuMetroTextbox();
+            this.txtDiaChi = new Bunifu.Framework.UI.BunifuMetroTextbox();
+            this.txtTenKH = new Bunifu.Framework.UI.BunifuMetroTextbox();
+            this.txtTenNhanVien = new Bunifu.Framework.UI.BunifuMetroTextbox();
+            this.txtMaNV = new Bunifu.Framework.UI.BunifuMetroTextbox();
+            this.lblMaHD = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.lblThongTinChung = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.btnLuuKH = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.btnTaoMoiKhachHang = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.panel1.SuspendLayout();
+            this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericGiamGia.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericSoLuong.Properties)).BeginInit();
             this.panelThongTinCacMatHang.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvDanhSachNV)).BeginInit();
+            this.panelThongTinChung.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dtpNgayLap.Properties.CalendarTimeProperties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dtpNgayLap.Properties)).BeginInit();
+            this.panel3.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // bunifuElipse1
-            // 
-            this.bunifuElipse1.ElipseRadius = 5;
-            this.bunifuElipse1.TargetControl = this;
-            // 
-            // panelThongTinChung
-            // 
-            this.panelThongTinChung.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(54)))), ((int)(((byte)(66)))));
-            this.panelThongTinChung.Controls.Add(this.cboMaNV);
-            this.panelThongTinChung.Controls.Add(this.dtpNgayLap);
-            this.panelThongTinChung.Controls.Add(this.bunifuCustomLabel4);
-            this.panelThongTinChung.Controls.Add(this.lblNgaySinh);
-            this.panelThongTinChung.Controls.Add(this.lblDiaChi);
-            this.panelThongTinChung.Controls.Add(this.lblMaNV);
-            this.panelThongTinChung.Controls.Add(this.lblTenKH);
-            this.panelThongTinChung.Controls.Add(this.lblNgayBan);
-            this.panelThongTinChung.Controls.Add(this.txtSDT);
-            this.panelThongTinChung.Controls.Add(this.txtDiaChi);
-            this.panelThongTinChung.Controls.Add(this.txtTenKH);
-            this.panelThongTinChung.Controls.Add(this.txtTenNhanVien);
-            this.panelThongTinChung.Controls.Add(this.txtMaNV);
-            this.panelThongTinChung.Controls.Add(this.lblMaHD);
-            this.panelThongTinChung.Controls.Add(this.panel2);
-            this.panelThongTinChung.Controls.Add(this.btnLuuKH);
-            this.panelThongTinChung.Controls.Add(this.btnTaoMoiKhachHang);
-            this.panelThongTinChung.Location = new System.Drawing.Point(12, 61);
-            this.panelThongTinChung.Name = "panelThongTinChung";
-            this.panelThongTinChung.Size = new System.Drawing.Size(973, 212);
-            this.panelThongTinChung.TabIndex = 3;
-            // 
-            // cboMaNV
-            // 
-            this.cboMaNV.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(60)))));
-            this.cboMaNV.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.cboMaNV.Font = new System.Drawing.Font("SVN-Beast", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cboMaNV.ForeColor = System.Drawing.Color.White;
-            this.cboMaNV.FormattingEnabled = true;
-            this.cboMaNV.Items.AddRange(new object[] {
-            "Admin",
-            "Thu Ngân",
-            "Chăm Sóc Khách Hàng"});
-            this.cboMaNV.Location = new System.Drawing.Point(236, 128);
-            this.cboMaNV.Name = "cboMaNV";
-            this.cboMaNV.Size = new System.Drawing.Size(192, 30);
-            this.cboMaNV.TabIndex = 3;
-            // 
-            // dtpNgayLap
-            // 
-            this.dtpNgayLap.EditValue = new System.DateTime(2020, 5, 18, 8, 4, 26, 0);
-            this.dtpNgayLap.Location = new System.Drawing.Point(236, 86);
-            this.dtpNgayLap.Name = "dtpNgayLap";
-            this.dtpNgayLap.Properties.Appearance.Font = new System.Drawing.Font("SVN-Beast", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dtpNgayLap.Properties.Appearance.Options.UseFont = true;
-            this.dtpNgayLap.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.dtpNgayLap.Properties.CalendarTimeProperties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.dtpNgayLap.Properties.DisplayFormat.FormatString = "dd/MM/yyyy hh:mm";
-            this.dtpNgayLap.Properties.DisplayFormat.FormatType = DevExpress.Utils.FormatType.DateTime;
-            this.dtpNgayLap.Properties.EditFormat.FormatString = "g";
-            this.dtpNgayLap.Properties.EditFormat.FormatType = DevExpress.Utils.FormatType.DateTime;
-            this.dtpNgayLap.Size = new System.Drawing.Size(193, 28);
-            this.dtpNgayLap.TabIndex = 2;
-            // 
-            // bunifuCustomLabel4
-            // 
-            this.bunifuCustomLabel4.AutoSize = true;
-            this.bunifuCustomLabel4.Font = new System.Drawing.Font("SVN-Beast", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuCustomLabel4.ForeColor = System.Drawing.Color.White;
-            this.bunifuCustomLabel4.Location = new System.Drawing.Point(509, 47);
-            this.bunifuCustomLabel4.Name = "bunifuCustomLabel4";
-            this.bunifuCustomLabel4.Size = new System.Drawing.Size(113, 23);
-            this.bunifuCustomLabel4.TabIndex = 18;
-            this.bunifuCustomLabel4.Text = "Số điện thoại :";
-            // 
-            // lblNgaySinh
-            // 
-            this.lblNgaySinh.AutoSize = true;
-            this.lblNgaySinh.Font = new System.Drawing.Font("SVN-Beast", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNgaySinh.ForeColor = System.Drawing.Color.White;
-            this.lblNgaySinh.Location = new System.Drawing.Point(117, 173);
-            this.lblNgaySinh.Name = "lblNgaySinh";
-            this.lblNgaySinh.Size = new System.Drawing.Size(120, 23);
-            this.lblNgaySinh.TabIndex = 18;
-            this.lblNgaySinh.Text = "Tên nhân viên :";
-            // 
-            // lblDiaChi
-            // 
-            this.lblDiaChi.AutoSize = true;
-            this.lblDiaChi.Font = new System.Drawing.Font("SVN-Beast", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDiaChi.ForeColor = System.Drawing.Color.White;
-            this.lblDiaChi.Location = new System.Drawing.Point(509, 128);
-            this.lblDiaChi.Name = "lblDiaChi";
-            this.lblDiaChi.Size = new System.Drawing.Size(66, 23);
-            this.lblDiaChi.TabIndex = 20;
-            this.lblDiaChi.Text = "Địa chỉ :";
-            // 
-            // lblMaNV
-            // 
-            this.lblMaNV.AutoSize = true;
-            this.lblMaNV.Font = new System.Drawing.Font("SVN-Beast", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMaNV.ForeColor = System.Drawing.Color.White;
-            this.lblMaNV.Location = new System.Drawing.Point(117, 128);
-            this.lblMaNV.Name = "lblMaNV";
-            this.lblMaNV.Size = new System.Drawing.Size(123, 23);
-            this.lblMaNV.TabIndex = 20;
-            this.lblMaNV.Text = "Mã nhân viên : ";
-            // 
-            // lblTenKH
-            // 
-            this.lblTenKH.AutoSize = true;
-            this.lblTenKH.Font = new System.Drawing.Font("SVN-Beast", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTenKH.ForeColor = System.Drawing.Color.White;
-            this.lblTenKH.Location = new System.Drawing.Point(509, 87);
-            this.lblTenKH.Name = "lblTenKH";
-            this.lblTenKH.Size = new System.Drawing.Size(133, 23);
-            this.lblTenKH.TabIndex = 21;
-            this.lblTenKH.Text = "Tên khách hàng :";
-            // 
-            // lblNgayBan
-            // 
-            this.lblNgayBan.AutoSize = true;
-            this.lblNgayBan.Font = new System.Drawing.Font("SVN-Beast", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNgayBan.ForeColor = System.Drawing.Color.White;
-            this.lblNgayBan.Location = new System.Drawing.Point(117, 87);
-            this.lblNgayBan.Name = "lblNgayBan";
-            this.lblNgayBan.Size = new System.Drawing.Size(84, 23);
-            this.lblNgayBan.TabIndex = 21;
-            this.lblNgayBan.Text = "Ngày lập :";
-            // 
-            // txtSDT
-            // 
-            this.txtSDT.BorderColorFocused = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(177)))), ((int)(((byte)(136)))));
-            this.txtSDT.BorderColorIdle = System.Drawing.Color.Gray;
-            this.txtSDT.BorderColorMouseHover = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(177)))), ((int)(((byte)(136)))));
-            this.txtSDT.BorderThickness = 2;
-            this.txtSDT.characterCasing = System.Windows.Forms.CharacterCasing.Normal;
-            this.txtSDT.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtSDT.Font = new System.Drawing.Font("SVN-Beast", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtSDT.ForeColor = System.Drawing.Color.Silver;
-            this.txtSDT.isPassword = false;
-            this.txtSDT.Location = new System.Drawing.Point(645, 45);
-            this.txtSDT.Margin = new System.Windows.Forms.Padding(4);
-            this.txtSDT.MaxLength = 32767;
-            this.txtSDT.Name = "txtSDT";
-            this.txtSDT.Size = new System.Drawing.Size(203, 28);
-            this.txtSDT.TabIndex = 7;
-            this.txtSDT.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            // 
-            // txtDiaChi
-            // 
-            this.txtDiaChi.BorderColorFocused = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(177)))), ((int)(((byte)(136)))));
-            this.txtDiaChi.BorderColorIdle = System.Drawing.Color.Gray;
-            this.txtDiaChi.BorderColorMouseHover = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(177)))), ((int)(((byte)(136)))));
-            this.txtDiaChi.BorderThickness = 2;
-            this.txtDiaChi.characterCasing = System.Windows.Forms.CharacterCasing.Normal;
-            this.txtDiaChi.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtDiaChi.Enabled = false;
-            this.txtDiaChi.Font = new System.Drawing.Font("SVN-Beast", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtDiaChi.ForeColor = System.Drawing.Color.Silver;
-            this.txtDiaChi.isPassword = false;
-            this.txtDiaChi.Location = new System.Drawing.Point(645, 127);
-            this.txtDiaChi.Margin = new System.Windows.Forms.Padding(4);
-            this.txtDiaChi.MaxLength = 32767;
-            this.txtDiaChi.Name = "txtDiaChi";
-            this.txtDiaChi.Size = new System.Drawing.Size(203, 28);
-            this.txtDiaChi.TabIndex = 6;
-            this.txtDiaChi.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            // 
-            // txtTenKH
-            // 
-            this.txtTenKH.BorderColorFocused = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(177)))), ((int)(((byte)(136)))));
-            this.txtTenKH.BorderColorIdle = System.Drawing.Color.Gray;
-            this.txtTenKH.BorderColorMouseHover = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(177)))), ((int)(((byte)(136)))));
-            this.txtTenKH.BorderThickness = 2;
-            this.txtTenKH.characterCasing = System.Windows.Forms.CharacterCasing.Normal;
-            this.txtTenKH.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtTenKH.Enabled = false;
-            this.txtTenKH.Font = new System.Drawing.Font("SVN-Beast", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTenKH.ForeColor = System.Drawing.Color.Silver;
-            this.txtTenKH.isPassword = false;
-            this.txtTenKH.Location = new System.Drawing.Point(645, 86);
-            this.txtTenKH.Margin = new System.Windows.Forms.Padding(4);
-            this.txtTenKH.MaxLength = 32767;
-            this.txtTenKH.Name = "txtTenKH";
-            this.txtTenKH.Size = new System.Drawing.Size(203, 28);
-            this.txtTenKH.TabIndex = 5;
-            this.txtTenKH.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            // 
-            // txtTenNhanVien
-            // 
-            this.txtTenNhanVien.BorderColorFocused = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(177)))), ((int)(((byte)(136)))));
-            this.txtTenNhanVien.BorderColorIdle = System.Drawing.Color.Gray;
-            this.txtTenNhanVien.BorderColorMouseHover = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(177)))), ((int)(((byte)(136)))));
-            this.txtTenNhanVien.BorderThickness = 2;
-            this.txtTenNhanVien.characterCasing = System.Windows.Forms.CharacterCasing.Normal;
-            this.txtTenNhanVien.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtTenNhanVien.Enabled = false;
-            this.txtTenNhanVien.Font = new System.Drawing.Font("SVN-Beast", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTenNhanVien.ForeColor = System.Drawing.Color.Silver;
-            this.txtTenNhanVien.isPassword = false;
-            this.txtTenNhanVien.Location = new System.Drawing.Point(236, 171);
-            this.txtTenNhanVien.Margin = new System.Windows.Forms.Padding(4);
-            this.txtTenNhanVien.MaxLength = 32767;
-            this.txtTenNhanVien.Name = "txtTenNhanVien";
-            this.txtTenNhanVien.Size = new System.Drawing.Size(192, 28);
-            this.txtTenNhanVien.TabIndex = 1;
-            this.txtTenNhanVien.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            // 
-            // txtMaNV
-            // 
-            this.txtMaNV.BorderColorFocused = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(177)))), ((int)(((byte)(136)))));
-            this.txtMaNV.BorderColorIdle = System.Drawing.Color.Gray;
-            this.txtMaNV.BorderColorMouseHover = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(177)))), ((int)(((byte)(136)))));
-            this.txtMaNV.BorderThickness = 2;
-            this.txtMaNV.characterCasing = System.Windows.Forms.CharacterCasing.Normal;
-            this.txtMaNV.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtMaNV.Enabled = false;
-            this.txtMaNV.Font = new System.Drawing.Font("SVN-Beast", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtMaNV.ForeColor = System.Drawing.Color.Silver;
-            this.txtMaNV.isPassword = false;
-            this.txtMaNV.Location = new System.Drawing.Point(237, 47);
-            this.txtMaNV.Margin = new System.Windows.Forms.Padding(4);
-            this.txtMaNV.MaxLength = 32767;
-            this.txtMaNV.Name = "txtMaNV";
-            this.txtMaNV.Size = new System.Drawing.Size(115, 28);
-            this.txtMaNV.TabIndex = 1;
-            this.txtMaNV.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            // 
-            // lblMaHD
-            // 
-            this.lblMaHD.AutoSize = true;
-            this.lblMaHD.Font = new System.Drawing.Font("SVN-Beast", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMaHD.ForeColor = System.Drawing.Color.White;
-            this.lblMaHD.Location = new System.Drawing.Point(117, 47);
-            this.lblMaHD.Name = "lblMaHD";
-            this.lblMaHD.Size = new System.Drawing.Size(107, 23);
-            this.lblMaHD.TabIndex = 12;
-            this.lblMaHD.Text = "Mã hóa đơn :";
-            // 
-            // panel2
-            // 
-            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(39)))), ((int)(((byte)(48)))));
-            this.panel2.Controls.Add(this.lblThongTinChung);
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel2.Location = new System.Drawing.Point(0, 0);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(973, 35);
-            this.panel2.TabIndex = 0;
-            // 
-            // lblThongTinChung
-            // 
-            this.lblThongTinChung.AutoSize = true;
-            this.lblThongTinChung.Font = new System.Drawing.Font("SVN-Beast", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblThongTinChung.ForeColor = System.Drawing.Color.White;
-            this.lblThongTinChung.Location = new System.Drawing.Point(422, 4);
-            this.lblThongTinChung.Name = "lblThongTinChung";
-            this.lblThongTinChung.Size = new System.Drawing.Size(121, 23);
-            this.lblThongTinChung.TabIndex = 0;
-            this.lblThongTinChung.Text = "Thông tin chung";
-            // 
-            // btnLuuKH
-            // 
-            this.btnLuuKH.ActiveBorderThickness = 1;
-            this.btnLuuKH.ActiveCornerRadius = 1;
-            this.btnLuuKH.ActiveFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(188)))), ((int)(((byte)(66)))));
-            this.btnLuuKH.ActiveForecolor = System.Drawing.Color.White;
-            this.btnLuuKH.ActiveLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(188)))), ((int)(((byte)(66)))));
-            this.btnLuuKH.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(54)))), ((int)(((byte)(66)))));
-            this.btnLuuKH.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnLuuKH.BackgroundImage")));
-            this.btnLuuKH.ButtonText = "Lưu";
-            this.btnLuuKH.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnLuuKH.Font = new System.Drawing.Font("SVN-Beast", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLuuKH.ForeColor = System.Drawing.Color.White;
-            this.btnLuuKH.IdleBorderThickness = 1;
-            this.btnLuuKH.IdleCornerRadius = 1;
-            this.btnLuuKH.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(168)))), ((int)(((byte)(0)))));
-            this.btnLuuKH.IdleForecolor = System.Drawing.Color.White;
-            this.btnLuuKH.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(168)))), ((int)(((byte)(0)))));
-            this.btnLuuKH.Location = new System.Drawing.Point(612, 158);
-            this.btnLuuKH.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.btnLuuKH.Name = "btnLuuKH";
-            this.btnLuuKH.Size = new System.Drawing.Size(110, 49);
-            this.btnLuuKH.TabIndex = 7;
-            this.btnLuuKH.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.btnLuuKH.Visible = false;
-            this.btnLuuKH.Click += new System.EventHandler(this.btnLuuKH_Click);
-            // 
-            // btnTaoMoiKhachHang
-            // 
-            this.btnTaoMoiKhachHang.ActiveBorderThickness = 1;
-            this.btnTaoMoiKhachHang.ActiveCornerRadius = 1;
-            this.btnTaoMoiKhachHang.ActiveFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(142)))), ((int)(((byte)(223)))));
-            this.btnTaoMoiKhachHang.ActiveForecolor = System.Drawing.Color.White;
-            this.btnTaoMoiKhachHang.ActiveLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(142)))), ((int)(((byte)(223)))));
-            this.btnTaoMoiKhachHang.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(54)))), ((int)(((byte)(66)))));
-            this.btnTaoMoiKhachHang.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnTaoMoiKhachHang.BackgroundImage")));
-            this.btnTaoMoiKhachHang.ButtonText = "Tạo mới khách hàng";
-            this.btnTaoMoiKhachHang.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnTaoMoiKhachHang.Font = new System.Drawing.Font("SVN-Beast", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnTaoMoiKhachHang.ForeColor = System.Drawing.Color.White;
-            this.btnTaoMoiKhachHang.IdleBorderThickness = 1;
-            this.btnTaoMoiKhachHang.IdleCornerRadius = 1;
-            this.btnTaoMoiKhachHang.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(124)))), ((int)(((byte)(221)))));
-            this.btnTaoMoiKhachHang.IdleForecolor = System.Drawing.Color.White;
-            this.btnTaoMoiKhachHang.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(124)))), ((int)(((byte)(221)))));
-            this.btnTaoMoiKhachHang.Location = new System.Drawing.Point(576, 158);
-            this.btnTaoMoiKhachHang.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.btnTaoMoiKhachHang.Name = "btnTaoMoiKhachHang";
-            this.btnTaoMoiKhachHang.Size = new System.Drawing.Size(176, 49);
-            this.btnTaoMoiKhachHang.TabIndex = 5;
-            this.btnTaoMoiKhachHang.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.btnTaoMoiKhachHang.Click += new System.EventHandler(this.btnTaoMoiKhachHang_Click);
-            // 
-            // lblHoaDon
-            // 
-            this.lblHoaDon.AutoSize = true;
-            this.lblHoaDon.Font = new System.Drawing.Font("SVN-Beast", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblHoaDon.ForeColor = System.Drawing.Color.White;
-            this.lblHoaDon.Location = new System.Drawing.Point(333, 9);
-            this.lblHoaDon.Name = "lblHoaDon";
-            this.lblHoaDon.Size = new System.Drawing.Size(336, 45);
-            this.lblHoaDon.TabIndex = 4;
-            this.lblHoaDon.Text = "HÓA ĐƠN BÁN HÀNG";
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(54)))), ((int)(((byte)(66)))));
-            this.panel1.Controls.Add(this.numericGiamGia);
-            this.panel1.Controls.Add(this.numericSoLuong);
-            this.panel1.Controls.Add(this.cboMaSP);
-            this.panel1.Controls.Add(this.bunifuCustomLabel6);
-            this.panel1.Controls.Add(this.bunifuCustomLabel7);
-            this.panel1.Controls.Add(this.txtThanhTien);
-            this.panel1.Controls.Add(this.txtGiaBan);
-            this.panel1.Controls.Add(this.txtTenSP);
-            this.panel1.Controls.Add(this.lblThanhTien);
-            this.panel1.Controls.Add(this.lblGiaBan);
-            this.panel1.Controls.Add(this.lblTenSP);
-            this.panel1.Controls.Add(this.lblMaSP);
-            this.panel1.Controls.Add(this.panelThongTinCacMatHang);
-            this.panel1.Controls.Add(this.btnThemVaoHoaDon);
-            this.panel1.Location = new System.Drawing.Point(12, 279);
+            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel1.Controls.Add(this.panel2);
+            this.panel1.Controls.Add(this.dgvDanhSachNV);
+            this.panel1.Controls.Add(this.btnHuyHoaDon);
+            this.panel1.Controls.Add(this.btnDong);
+            this.panel1.Controls.Add(this.btnReset);
+            this.panel1.Controls.Add(this.btnInHoaDon);
+            this.panel1.Controls.Add(this.btnLuuHoaDon);
+            this.panel1.Controls.Add(this.lblHoaDon);
+            this.panel1.Controls.Add(this.panelThongTinChung);
+            this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(973, 176);
-            this.panel1.TabIndex = 5;
+            this.panel1.Size = new System.Drawing.Size(998, 734);
+            this.panel1.TabIndex = 0;
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(54)))), ((int)(((byte)(66)))));
+            this.panel2.Controls.Add(this.numericGiamGia);
+            this.panel2.Controls.Add(this.numericSoLuong);
+            this.panel2.Controls.Add(this.cboMaSP);
+            this.panel2.Controls.Add(this.bunifuCustomLabel6);
+            this.panel2.Controls.Add(this.bunifuCustomLabel7);
+            this.panel2.Controls.Add(this.txtThanhTien);
+            this.panel2.Controls.Add(this.txtGiaBan);
+            this.panel2.Controls.Add(this.txtTenSP);
+            this.panel2.Controls.Add(this.lblThanhTien);
+            this.panel2.Controls.Add(this.lblGiaBan);
+            this.panel2.Controls.Add(this.lblTenSP);
+            this.panel2.Controls.Add(this.lblMaSP);
+            this.panel2.Controls.Add(this.panelThongTinCacMatHang);
+            this.panel2.Controls.Add(this.btnThemVaoHoaDon);
+            this.panel2.Location = new System.Drawing.Point(12, 283);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(973, 176);
+            this.panel2.TabIndex = 32;
             // 
             // numericGiamGia
             // 
@@ -673,10 +367,10 @@
             // dgvDanhSachNV
             // 
             this.dgvDanhSachNV.AllowUserToResizeRows = false;
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(54)))), ((int)(((byte)(66)))));
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("SVN-Beast", 12F);
-            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.White;
-            this.dgvDanhSachNV.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(54)))), ((int)(((byte)(66)))));
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("SVN-Beast", 12F);
+            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.White;
+            this.dgvDanhSachNV.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle5;
             this.dgvDanhSachNV.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
@@ -685,12 +379,12 @@
             this.dgvDanhSachNV.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dgvDanhSachNV.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
             this.dgvDanhSachNV.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(39)))), ((int)(((byte)(48)))));
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("SVN-Beast", 12F);
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvDanhSachNV.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(39)))), ((int)(((byte)(48)))));
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("SVN-Beast", 12F);
+            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvDanhSachNV.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle6;
             this.dgvDanhSachNV.ColumnHeadersHeight = 35;
             this.dgvDanhSachNV.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.colMaSP,
@@ -699,29 +393,29 @@
             this.colGiaBan,
             this.colGiaMua,
             this.colThanhTien});
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("SVN-Beast", 12F);
-            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(200)))), ((int)(((byte)(150)))));
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgvDanhSachNV.DefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle7.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle7.Font = new System.Drawing.Font("SVN-Beast", 12F);
+            dataGridViewCellStyle7.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle7.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(200)))), ((int)(((byte)(150)))));
+            dataGridViewCellStyle7.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgvDanhSachNV.DefaultCellStyle = dataGridViewCellStyle7;
             this.dgvDanhSachNV.DoubleBuffered = true;
             this.dgvDanhSachNV.EnableHeadersVisualStyles = false;
             this.dgvDanhSachNV.HeaderBgColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(39)))), ((int)(((byte)(48)))));
             this.dgvDanhSachNV.HeaderForeColor = System.Drawing.Color.White;
-            this.dgvDanhSachNV.Location = new System.Drawing.Point(12, 461);
+            this.dgvDanhSachNV.Location = new System.Drawing.Point(12, 465);
             this.dgvDanhSachNV.Name = "dgvDanhSachNV";
             this.dgvDanhSachNV.ReadOnly = true;
             this.dgvDanhSachNV.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
             this.dgvDanhSachNV.RowHeadersVisible = false;
-            dataGridViewCellStyle4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(74)))), ((int)(((byte)(90)))));
-            this.dgvDanhSachNV.RowsDefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(74)))), ((int)(((byte)(90)))));
+            this.dgvDanhSachNV.RowsDefaultCellStyle = dataGridViewCellStyle8;
             this.dgvDanhSachNV.RowTemplate.Height = 30;
             this.dgvDanhSachNV.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.CellSelect;
             this.dgvDanhSachNV.Size = new System.Drawing.Size(973, 215);
-            this.dgvDanhSachNV.TabIndex = 29;
+            this.dgvDanhSachNV.TabIndex = 38;
             // 
             // colMaSP
             // 
@@ -759,6 +453,31 @@
             this.colThanhTien.Name = "colThanhTien";
             this.colThanhTien.ReadOnly = true;
             // 
+            // btnHuyHoaDon
+            // 
+            this.btnHuyHoaDon.ActiveBorderThickness = 1;
+            this.btnHuyHoaDon.ActiveCornerRadius = 1;
+            this.btnHuyHoaDon.ActiveFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(206)))), ((int)(((byte)(61)))), ((int)(((byte)(75)))));
+            this.btnHuyHoaDon.ActiveForecolor = System.Drawing.Color.White;
+            this.btnHuyHoaDon.ActiveLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(206)))), ((int)(((byte)(61)))), ((int)(((byte)(75)))));
+            this.btnHuyHoaDon.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(60)))));
+            this.btnHuyHoaDon.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnHuyHoaDon.BackgroundImage")));
+            this.btnHuyHoaDon.ButtonText = "Hủy hóa đơn";
+            this.btnHuyHoaDon.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnHuyHoaDon.Font = new System.Drawing.Font("SVN-Beast", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnHuyHoaDon.ForeColor = System.Drawing.Color.White;
+            this.btnHuyHoaDon.IdleBorderThickness = 1;
+            this.btnHuyHoaDon.IdleCornerRadius = 1;
+            this.btnHuyHoaDon.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(35)))), ((int)(((byte)(51)))));
+            this.btnHuyHoaDon.IdleForecolor = System.Drawing.Color.White;
+            this.btnHuyHoaDon.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(35)))), ((int)(((byte)(51)))));
+            this.btnHuyHoaDon.Location = new System.Drawing.Point(216, 679);
+            this.btnHuyHoaDon.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnHuyHoaDon.Name = "btnHuyHoaDon";
+            this.btnHuyHoaDon.Size = new System.Drawing.Size(185, 49);
+            this.btnHuyHoaDon.TabIndex = 36;
+            this.btnHuyHoaDon.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // btnDong
             // 
             this.btnDong.ActiveBorderThickness = 1;
@@ -777,11 +496,11 @@
             this.btnDong.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(35)))), ((int)(((byte)(51)))));
             this.btnDong.IdleForecolor = System.Drawing.Color.White;
             this.btnDong.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(35)))), ((int)(((byte)(51)))));
-            this.btnDong.Location = new System.Drawing.Point(777, 675);
+            this.btnDong.Location = new System.Drawing.Point(777, 679);
             this.btnDong.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnDong.Name = "btnDong";
             this.btnDong.Size = new System.Drawing.Size(185, 49);
-            this.btnDong.TabIndex = 24;
+            this.btnDong.TabIndex = 33;
             this.btnDong.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btnDong.Click += new System.EventHandler(this.btnDong_Click);
             // 
@@ -803,12 +522,13 @@
             this.btnReset.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(177)))), ((int)(((byte)(136)))));
             this.btnReset.IdleForecolor = System.Drawing.Color.White;
             this.btnReset.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(177)))), ((int)(((byte)(136)))));
-            this.btnReset.Location = new System.Drawing.Point(590, 675);
+            this.btnReset.Location = new System.Drawing.Point(590, 679);
             this.btnReset.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnReset.Name = "btnReset";
             this.btnReset.Size = new System.Drawing.Size(185, 49);
-            this.btnReset.TabIndex = 25;
+            this.btnReset.TabIndex = 34;
             this.btnReset.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btnReset.Click += new System.EventHandler(this.btnReset_Click);
             // 
             // btnInHoaDon
             // 
@@ -828,37 +548,12 @@
             this.btnInHoaDon.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(124)))), ((int)(((byte)(221)))));
             this.btnInHoaDon.IdleForecolor = System.Drawing.Color.White;
             this.btnInHoaDon.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(124)))), ((int)(((byte)(221)))));
-            this.btnInHoaDon.Location = new System.Drawing.Point(403, 675);
+            this.btnInHoaDon.Location = new System.Drawing.Point(403, 679);
             this.btnInHoaDon.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnInHoaDon.Name = "btnInHoaDon";
             this.btnInHoaDon.Size = new System.Drawing.Size(185, 49);
-            this.btnInHoaDon.TabIndex = 26;
+            this.btnInHoaDon.TabIndex = 35;
             this.btnInHoaDon.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // btnHuyHoaDon
-            // 
-            this.btnHuyHoaDon.ActiveBorderThickness = 1;
-            this.btnHuyHoaDon.ActiveCornerRadius = 1;
-            this.btnHuyHoaDon.ActiveFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(206)))), ((int)(((byte)(61)))), ((int)(((byte)(75)))));
-            this.btnHuyHoaDon.ActiveForecolor = System.Drawing.Color.White;
-            this.btnHuyHoaDon.ActiveLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(206)))), ((int)(((byte)(61)))), ((int)(((byte)(75)))));
-            this.btnHuyHoaDon.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(60)))));
-            this.btnHuyHoaDon.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnHuyHoaDon.BackgroundImage")));
-            this.btnHuyHoaDon.ButtonText = "Hủy hóa đơn";
-            this.btnHuyHoaDon.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnHuyHoaDon.Font = new System.Drawing.Font("SVN-Beast", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnHuyHoaDon.ForeColor = System.Drawing.Color.White;
-            this.btnHuyHoaDon.IdleBorderThickness = 1;
-            this.btnHuyHoaDon.IdleCornerRadius = 1;
-            this.btnHuyHoaDon.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(35)))), ((int)(((byte)(51)))));
-            this.btnHuyHoaDon.IdleForecolor = System.Drawing.Color.White;
-            this.btnHuyHoaDon.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(35)))), ((int)(((byte)(51)))));
-            this.btnHuyHoaDon.Location = new System.Drawing.Point(216, 675);
-            this.btnHuyHoaDon.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.btnHuyHoaDon.Name = "btnHuyHoaDon";
-            this.btnHuyHoaDon.Size = new System.Drawing.Size(185, 49);
-            this.btnHuyHoaDon.TabIndex = 27;
-            this.btnHuyHoaDon.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // btnLuuHoaDon
             // 
@@ -878,12 +573,335 @@
             this.btnLuuHoaDon.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(168)))), ((int)(((byte)(0)))));
             this.btnLuuHoaDon.IdleForecolor = System.Drawing.Color.White;
             this.btnLuuHoaDon.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(168)))), ((int)(((byte)(0)))));
-            this.btnLuuHoaDon.Location = new System.Drawing.Point(29, 675);
+            this.btnLuuHoaDon.Location = new System.Drawing.Point(29, 679);
             this.btnLuuHoaDon.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnLuuHoaDon.Name = "btnLuuHoaDon";
             this.btnLuuHoaDon.Size = new System.Drawing.Size(185, 49);
-            this.btnLuuHoaDon.TabIndex = 28;
+            this.btnLuuHoaDon.TabIndex = 37;
             this.btnLuuHoaDon.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lblHoaDon
+            // 
+            this.lblHoaDon.AutoSize = true;
+            this.lblHoaDon.Font = new System.Drawing.Font("SVN-Beast", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblHoaDon.ForeColor = System.Drawing.Color.White;
+            this.lblHoaDon.Location = new System.Drawing.Point(318, 4);
+            this.lblHoaDon.Name = "lblHoaDon";
+            this.lblHoaDon.Size = new System.Drawing.Size(416, 51);
+            this.lblHoaDon.TabIndex = 31;
+            this.lblHoaDon.Text = "HÓA ĐƠN BÁN HÀNG";
+            // 
+            // panelThongTinChung
+            // 
+            this.panelThongTinChung.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(54)))), ((int)(((byte)(66)))));
+            this.panelThongTinChung.Controls.Add(this.cboMaNV);
+            this.panelThongTinChung.Controls.Add(this.dtpNgayLap);
+            this.panelThongTinChung.Controls.Add(this.bunifuCustomLabel4);
+            this.panelThongTinChung.Controls.Add(this.lblNgaySinh);
+            this.panelThongTinChung.Controls.Add(this.lblDiaChi);
+            this.panelThongTinChung.Controls.Add(this.lblMaNV);
+            this.panelThongTinChung.Controls.Add(this.lblTenKH);
+            this.panelThongTinChung.Controls.Add(this.lblNgayBan);
+            this.panelThongTinChung.Controls.Add(this.txtSDT);
+            this.panelThongTinChung.Controls.Add(this.txtDiaChi);
+            this.panelThongTinChung.Controls.Add(this.txtTenKH);
+            this.panelThongTinChung.Controls.Add(this.txtTenNhanVien);
+            this.panelThongTinChung.Controls.Add(this.txtMaNV);
+            this.panelThongTinChung.Controls.Add(this.lblMaHD);
+            this.panelThongTinChung.Controls.Add(this.panel3);
+            this.panelThongTinChung.Controls.Add(this.btnLuuKH);
+            this.panelThongTinChung.Controls.Add(this.btnTaoMoiKhachHang);
+            this.panelThongTinChung.Location = new System.Drawing.Point(12, 65);
+            this.panelThongTinChung.Name = "panelThongTinChung";
+            this.panelThongTinChung.Size = new System.Drawing.Size(973, 212);
+            this.panelThongTinChung.TabIndex = 30;
+            // 
+            // cboMaNV
+            // 
+            this.cboMaNV.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(60)))));
+            this.cboMaNV.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.cboMaNV.Font = new System.Drawing.Font("SVN-Beast", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cboMaNV.ForeColor = System.Drawing.Color.White;
+            this.cboMaNV.FormattingEnabled = true;
+            this.cboMaNV.Items.AddRange(new object[] {
+            "Admin",
+            "Thu Ngân",
+            "Chăm Sóc Khách Hàng"});
+            this.cboMaNV.Location = new System.Drawing.Point(236, 128);
+            this.cboMaNV.Name = "cboMaNV";
+            this.cboMaNV.Size = new System.Drawing.Size(192, 30);
+            this.cboMaNV.TabIndex = 3;
+            // 
+            // dtpNgayLap
+            // 
+            this.dtpNgayLap.EditValue = new System.DateTime(2020, 5, 18, 8, 4, 26, 0);
+            this.dtpNgayLap.Location = new System.Drawing.Point(236, 86);
+            this.dtpNgayLap.Name = "dtpNgayLap";
+            this.dtpNgayLap.Properties.Appearance.Font = new System.Drawing.Font("SVN-Beast", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dtpNgayLap.Properties.Appearance.Options.UseFont = true;
+            this.dtpNgayLap.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.dtpNgayLap.Properties.CalendarTimeProperties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.dtpNgayLap.Properties.DisplayFormat.FormatString = "dd/MM/yyyy hh:mm";
+            this.dtpNgayLap.Properties.DisplayFormat.FormatType = DevExpress.Utils.FormatType.DateTime;
+            this.dtpNgayLap.Properties.EditFormat.FormatString = "g";
+            this.dtpNgayLap.Properties.EditFormat.FormatType = DevExpress.Utils.FormatType.DateTime;
+            this.dtpNgayLap.Size = new System.Drawing.Size(193, 28);
+            this.dtpNgayLap.TabIndex = 2;
+            // 
+            // bunifuCustomLabel4
+            // 
+            this.bunifuCustomLabel4.AutoSize = true;
+            this.bunifuCustomLabel4.Font = new System.Drawing.Font("SVN-Beast", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuCustomLabel4.ForeColor = System.Drawing.Color.White;
+            this.bunifuCustomLabel4.Location = new System.Drawing.Point(509, 47);
+            this.bunifuCustomLabel4.Name = "bunifuCustomLabel4";
+            this.bunifuCustomLabel4.Size = new System.Drawing.Size(113, 23);
+            this.bunifuCustomLabel4.TabIndex = 18;
+            this.bunifuCustomLabel4.Text = "Số điện thoại :";
+            // 
+            // lblNgaySinh
+            // 
+            this.lblNgaySinh.AutoSize = true;
+            this.lblNgaySinh.Font = new System.Drawing.Font("SVN-Beast", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNgaySinh.ForeColor = System.Drawing.Color.White;
+            this.lblNgaySinh.Location = new System.Drawing.Point(117, 173);
+            this.lblNgaySinh.Name = "lblNgaySinh";
+            this.lblNgaySinh.Size = new System.Drawing.Size(120, 23);
+            this.lblNgaySinh.TabIndex = 18;
+            this.lblNgaySinh.Text = "Tên nhân viên :";
+            // 
+            // lblDiaChi
+            // 
+            this.lblDiaChi.AutoSize = true;
+            this.lblDiaChi.Font = new System.Drawing.Font("SVN-Beast", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDiaChi.ForeColor = System.Drawing.Color.White;
+            this.lblDiaChi.Location = new System.Drawing.Point(509, 128);
+            this.lblDiaChi.Name = "lblDiaChi";
+            this.lblDiaChi.Size = new System.Drawing.Size(66, 23);
+            this.lblDiaChi.TabIndex = 20;
+            this.lblDiaChi.Text = "Địa chỉ :";
+            // 
+            // lblMaNV
+            // 
+            this.lblMaNV.AutoSize = true;
+            this.lblMaNV.Font = new System.Drawing.Font("SVN-Beast", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMaNV.ForeColor = System.Drawing.Color.White;
+            this.lblMaNV.Location = new System.Drawing.Point(117, 128);
+            this.lblMaNV.Name = "lblMaNV";
+            this.lblMaNV.Size = new System.Drawing.Size(123, 23);
+            this.lblMaNV.TabIndex = 20;
+            this.lblMaNV.Text = "Mã nhân viên : ";
+            // 
+            // lblTenKH
+            // 
+            this.lblTenKH.AutoSize = true;
+            this.lblTenKH.Font = new System.Drawing.Font("SVN-Beast", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTenKH.ForeColor = System.Drawing.Color.White;
+            this.lblTenKH.Location = new System.Drawing.Point(509, 87);
+            this.lblTenKH.Name = "lblTenKH";
+            this.lblTenKH.Size = new System.Drawing.Size(133, 23);
+            this.lblTenKH.TabIndex = 21;
+            this.lblTenKH.Text = "Tên khách hàng :";
+            // 
+            // lblNgayBan
+            // 
+            this.lblNgayBan.AutoSize = true;
+            this.lblNgayBan.Font = new System.Drawing.Font("SVN-Beast", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNgayBan.ForeColor = System.Drawing.Color.White;
+            this.lblNgayBan.Location = new System.Drawing.Point(117, 87);
+            this.lblNgayBan.Name = "lblNgayBan";
+            this.lblNgayBan.Size = new System.Drawing.Size(84, 23);
+            this.lblNgayBan.TabIndex = 21;
+            this.lblNgayBan.Text = "Ngày lập :";
+            // 
+            // txtSDT
+            // 
+            this.txtSDT.BorderColorFocused = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(177)))), ((int)(((byte)(136)))));
+            this.txtSDT.BorderColorIdle = System.Drawing.Color.Gray;
+            this.txtSDT.BorderColorMouseHover = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(177)))), ((int)(((byte)(136)))));
+            this.txtSDT.BorderThickness = 2;
+            this.txtSDT.characterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.txtSDT.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtSDT.Font = new System.Drawing.Font("SVN-Beast", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSDT.ForeColor = System.Drawing.Color.Silver;
+            this.txtSDT.isPassword = false;
+            this.txtSDT.Location = new System.Drawing.Point(645, 45);
+            this.txtSDT.Margin = new System.Windows.Forms.Padding(4);
+            this.txtSDT.MaxLength = 32767;
+            this.txtSDT.Name = "txtSDT";
+            this.txtSDT.Size = new System.Drawing.Size(203, 28);
+            this.txtSDT.TabIndex = 7;
+            this.txtSDT.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            // 
+            // txtDiaChi
+            // 
+            this.txtDiaChi.BorderColorFocused = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(177)))), ((int)(((byte)(136)))));
+            this.txtDiaChi.BorderColorIdle = System.Drawing.Color.Gray;
+            this.txtDiaChi.BorderColorMouseHover = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(177)))), ((int)(((byte)(136)))));
+            this.txtDiaChi.BorderThickness = 2;
+            this.txtDiaChi.characterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.txtDiaChi.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtDiaChi.Enabled = false;
+            this.txtDiaChi.Font = new System.Drawing.Font("SVN-Beast", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtDiaChi.ForeColor = System.Drawing.Color.Silver;
+            this.txtDiaChi.isPassword = false;
+            this.txtDiaChi.Location = new System.Drawing.Point(645, 127);
+            this.txtDiaChi.Margin = new System.Windows.Forms.Padding(4);
+            this.txtDiaChi.MaxLength = 32767;
+            this.txtDiaChi.Name = "txtDiaChi";
+            this.txtDiaChi.Size = new System.Drawing.Size(203, 28);
+            this.txtDiaChi.TabIndex = 6;
+            this.txtDiaChi.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            // 
+            // txtTenKH
+            // 
+            this.txtTenKH.BorderColorFocused = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(177)))), ((int)(((byte)(136)))));
+            this.txtTenKH.BorderColorIdle = System.Drawing.Color.Gray;
+            this.txtTenKH.BorderColorMouseHover = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(177)))), ((int)(((byte)(136)))));
+            this.txtTenKH.BorderThickness = 2;
+            this.txtTenKH.characterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.txtTenKH.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtTenKH.Enabled = false;
+            this.txtTenKH.Font = new System.Drawing.Font("SVN-Beast", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTenKH.ForeColor = System.Drawing.Color.Silver;
+            this.txtTenKH.isPassword = false;
+            this.txtTenKH.Location = new System.Drawing.Point(645, 86);
+            this.txtTenKH.Margin = new System.Windows.Forms.Padding(4);
+            this.txtTenKH.MaxLength = 32767;
+            this.txtTenKH.Name = "txtTenKH";
+            this.txtTenKH.Size = new System.Drawing.Size(203, 28);
+            this.txtTenKH.TabIndex = 5;
+            this.txtTenKH.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            // 
+            // txtTenNhanVien
+            // 
+            this.txtTenNhanVien.BorderColorFocused = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(177)))), ((int)(((byte)(136)))));
+            this.txtTenNhanVien.BorderColorIdle = System.Drawing.Color.Gray;
+            this.txtTenNhanVien.BorderColorMouseHover = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(177)))), ((int)(((byte)(136)))));
+            this.txtTenNhanVien.BorderThickness = 2;
+            this.txtTenNhanVien.characterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.txtTenNhanVien.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtTenNhanVien.Enabled = false;
+            this.txtTenNhanVien.Font = new System.Drawing.Font("SVN-Beast", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTenNhanVien.ForeColor = System.Drawing.Color.Silver;
+            this.txtTenNhanVien.isPassword = false;
+            this.txtTenNhanVien.Location = new System.Drawing.Point(236, 171);
+            this.txtTenNhanVien.Margin = new System.Windows.Forms.Padding(4);
+            this.txtTenNhanVien.MaxLength = 32767;
+            this.txtTenNhanVien.Name = "txtTenNhanVien";
+            this.txtTenNhanVien.Size = new System.Drawing.Size(192, 28);
+            this.txtTenNhanVien.TabIndex = 1;
+            this.txtTenNhanVien.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            // 
+            // txtMaNV
+            // 
+            this.txtMaNV.BorderColorFocused = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(177)))), ((int)(((byte)(136)))));
+            this.txtMaNV.BorderColorIdle = System.Drawing.Color.Gray;
+            this.txtMaNV.BorderColorMouseHover = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(177)))), ((int)(((byte)(136)))));
+            this.txtMaNV.BorderThickness = 2;
+            this.txtMaNV.characterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.txtMaNV.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtMaNV.Enabled = false;
+            this.txtMaNV.Font = new System.Drawing.Font("SVN-Beast", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtMaNV.ForeColor = System.Drawing.Color.Silver;
+            this.txtMaNV.isPassword = false;
+            this.txtMaNV.Location = new System.Drawing.Point(237, 47);
+            this.txtMaNV.Margin = new System.Windows.Forms.Padding(4);
+            this.txtMaNV.MaxLength = 32767;
+            this.txtMaNV.Name = "txtMaNV";
+            this.txtMaNV.Size = new System.Drawing.Size(115, 28);
+            this.txtMaNV.TabIndex = 1;
+            this.txtMaNV.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            // 
+            // lblMaHD
+            // 
+            this.lblMaHD.AutoSize = true;
+            this.lblMaHD.Font = new System.Drawing.Font("SVN-Beast", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMaHD.ForeColor = System.Drawing.Color.White;
+            this.lblMaHD.Location = new System.Drawing.Point(117, 47);
+            this.lblMaHD.Name = "lblMaHD";
+            this.lblMaHD.Size = new System.Drawing.Size(107, 23);
+            this.lblMaHD.TabIndex = 12;
+            this.lblMaHD.Text = "Mã hóa đơn :";
+            // 
+            // panel3
+            // 
+            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(39)))), ((int)(((byte)(48)))));
+            this.panel3.Controls.Add(this.lblThongTinChung);
+            this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel3.Location = new System.Drawing.Point(0, 0);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(973, 35);
+            this.panel3.TabIndex = 0;
+            // 
+            // lblThongTinChung
+            // 
+            this.lblThongTinChung.AutoSize = true;
+            this.lblThongTinChung.Font = new System.Drawing.Font("SVN-Beast", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblThongTinChung.ForeColor = System.Drawing.Color.White;
+            this.lblThongTinChung.Location = new System.Drawing.Point(422, 4);
+            this.lblThongTinChung.Name = "lblThongTinChung";
+            this.lblThongTinChung.Size = new System.Drawing.Size(121, 23);
+            this.lblThongTinChung.TabIndex = 0;
+            this.lblThongTinChung.Text = "Thông tin chung";
+            // 
+            // btnLuuKH
+            // 
+            this.btnLuuKH.ActiveBorderThickness = 1;
+            this.btnLuuKH.ActiveCornerRadius = 1;
+            this.btnLuuKH.ActiveFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(188)))), ((int)(((byte)(66)))));
+            this.btnLuuKH.ActiveForecolor = System.Drawing.Color.White;
+            this.btnLuuKH.ActiveLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(188)))), ((int)(((byte)(66)))));
+            this.btnLuuKH.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(54)))), ((int)(((byte)(66)))));
+            this.btnLuuKH.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnLuuKH.BackgroundImage")));
+            this.btnLuuKH.ButtonText = "Lưu";
+            this.btnLuuKH.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnLuuKH.Font = new System.Drawing.Font("SVN-Beast", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLuuKH.ForeColor = System.Drawing.Color.White;
+            this.btnLuuKH.IdleBorderThickness = 1;
+            this.btnLuuKH.IdleCornerRadius = 1;
+            this.btnLuuKH.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(168)))), ((int)(((byte)(0)))));
+            this.btnLuuKH.IdleForecolor = System.Drawing.Color.White;
+            this.btnLuuKH.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(168)))), ((int)(((byte)(0)))));
+            this.btnLuuKH.Location = new System.Drawing.Point(612, 158);
+            this.btnLuuKH.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnLuuKH.Name = "btnLuuKH";
+            this.btnLuuKH.Size = new System.Drawing.Size(110, 49);
+            this.btnLuuKH.TabIndex = 7;
+            this.btnLuuKH.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btnLuuKH.Visible = false;
+            // 
+            // btnTaoMoiKhachHang
+            // 
+            this.btnTaoMoiKhachHang.ActiveBorderThickness = 1;
+            this.btnTaoMoiKhachHang.ActiveCornerRadius = 1;
+            this.btnTaoMoiKhachHang.ActiveFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(142)))), ((int)(((byte)(223)))));
+            this.btnTaoMoiKhachHang.ActiveForecolor = System.Drawing.Color.White;
+            this.btnTaoMoiKhachHang.ActiveLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(142)))), ((int)(((byte)(223)))));
+            this.btnTaoMoiKhachHang.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(54)))), ((int)(((byte)(66)))));
+            this.btnTaoMoiKhachHang.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnTaoMoiKhachHang.BackgroundImage")));
+            this.btnTaoMoiKhachHang.ButtonText = "Tạo mới khách hàng";
+            this.btnTaoMoiKhachHang.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnTaoMoiKhachHang.Font = new System.Drawing.Font("SVN-Beast", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnTaoMoiKhachHang.ForeColor = System.Drawing.Color.White;
+            this.btnTaoMoiKhachHang.IdleBorderThickness = 1;
+            this.btnTaoMoiKhachHang.IdleCornerRadius = 1;
+            this.btnTaoMoiKhachHang.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(124)))), ((int)(((byte)(221)))));
+            this.btnTaoMoiKhachHang.IdleForecolor = System.Drawing.Color.White;
+            this.btnTaoMoiKhachHang.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(124)))), ((int)(((byte)(221)))));
+            this.btnTaoMoiKhachHang.Location = new System.Drawing.Point(576, 158);
+            this.btnTaoMoiKhachHang.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnTaoMoiKhachHang.Name = "btnTaoMoiKhachHang";
+            this.btnTaoMoiKhachHang.Size = new System.Drawing.Size(176, 49);
+            this.btnTaoMoiKhachHang.TabIndex = 5;
+            this.btnTaoMoiKhachHang.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // bunifuElipse1
+            // 
+            this.bunifuElipse1.ElipseRadius = 5;
+            this.bunifuElipse1.TargetControl = this;
             // 
             // frmLapHoaDon
             // 
@@ -891,76 +909,49 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(60)))));
             this.ClientSize = new System.Drawing.Size(999, 735);
-            this.Controls.Add(this.dgvDanhSachNV);
-            this.Controls.Add(this.btnDong);
-            this.Controls.Add(this.btnReset);
-            this.Controls.Add(this.btnInHoaDon);
-            this.Controls.Add(this.btnHuyHoaDon);
-            this.Controls.Add(this.btnLuuHoaDon);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.lblHoaDon);
-            this.Controls.Add(this.panelThongTinChung);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "frmLapHoaDon";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmLapHoaDon";
-            this.panelThongTinChung.ResumeLayout(false);
-            this.panelThongTinChung.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dtpNgayLap.Properties.CalendarTimeProperties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dtpNgayLap.Properties)).EndInit();
-            this.panel2.ResumeLayout(false);
-            this.panel2.PerformLayout();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericGiamGia.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericSoLuong.Properties)).EndInit();
             this.panelThongTinCacMatHang.ResumeLayout(false);
             this.panelThongTinCacMatHang.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvDanhSachNV)).EndInit();
+            this.panelThongTinChung.ResumeLayout(false);
+            this.panelThongTinChung.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dtpNgayLap.Properties.CalendarTimeProperties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dtpNgayLap.Properties)).EndInit();
+            this.panel3.ResumeLayout(false);
+            this.panel3.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
 
-        private Bunifu.Framework.UI.BunifuElipse bunifuElipse1;
-        private System.Windows.Forms.Panel panelThongTinChung;
-        private Bunifu.Framework.UI.BunifuCustomLabel lblMaHD;
-        private System.Windows.Forms.Panel panel2;
-        private Bunifu.Framework.UI.BunifuCustomLabel lblThongTinChung;
-        private Bunifu.Framework.UI.BunifuThinButton2 btnTaoMoiKhachHang;
-        private Bunifu.Framework.UI.BunifuCustomLabel lblHoaDon;
-        private DevExpress.XtraEditors.DateEdit dtpNgayLap;
-        private Bunifu.Framework.UI.BunifuCustomLabel lblNgaySinh;
-        private Bunifu.Framework.UI.BunifuCustomLabel lblMaNV;
-        private Bunifu.Framework.UI.BunifuCustomLabel lblNgayBan;
-        private System.Windows.Forms.ComboBox cboMaNV;
-        private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel4;
-        private Bunifu.Framework.UI.BunifuCustomLabel lblDiaChi;
-        private Bunifu.Framework.UI.BunifuCustomLabel lblTenKH;
-        private Bunifu.Framework.UI.BunifuMetroTextbox txtSDT;
-        private Bunifu.Framework.UI.BunifuMetroTextbox txtDiaChi;
-        private Bunifu.Framework.UI.BunifuMetroTextbox txtTenKH;
-        private Bunifu.Framework.UI.BunifuThinButton2 btnLuuKH;
         private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel panel2;
+        private DevExpress.XtraEditors.SpinEdit numericGiamGia;
         private DevExpress.XtraEditors.SpinEdit numericSoLuong;
         private System.Windows.Forms.ComboBox cboMaSP;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel6;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel7;
+        private Bunifu.Framework.UI.BunifuMetroTextbox txtThanhTien;
+        private Bunifu.Framework.UI.BunifuMetroTextbox txtGiaBan;
         private Bunifu.Framework.UI.BunifuMetroTextbox txtTenSP;
+        private Bunifu.Framework.UI.BunifuCustomLabel lblThanhTien;
+        private Bunifu.Framework.UI.BunifuCustomLabel lblGiaBan;
         private Bunifu.Framework.UI.BunifuCustomLabel lblTenSP;
         private Bunifu.Framework.UI.BunifuCustomLabel lblMaSP;
         private System.Windows.Forms.Panel panelThongTinCacMatHang;
         private Bunifu.Framework.UI.BunifuCustomLabel lblThongTinCacMatHang;
-        private DevExpress.XtraEditors.SpinEdit numericGiamGia;
-        private Bunifu.Framework.UI.BunifuMetroTextbox txtThanhTien;
-        private Bunifu.Framework.UI.BunifuMetroTextbox txtGiaBan;
-        private Bunifu.Framework.UI.BunifuCustomLabel lblThanhTien;
-        private Bunifu.Framework.UI.BunifuCustomLabel lblGiaBan;
         private Bunifu.Framework.UI.BunifuThinButton2 btnThemVaoHoaDon;
-        private Bunifu.Framework.UI.BunifuMetroTextbox txtMaNV;
-        private Bunifu.Framework.UI.BunifuMetroTextbox txtTenNhanVien;
         private Bunifu.Framework.UI.BunifuCustomDataGrid dgvDanhSachNV;
         private System.Windows.Forms.DataGridViewTextBoxColumn colMaSP;
         private System.Windows.Forms.DataGridViewTextBoxColumn colTenSP;
@@ -968,10 +959,31 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn colGiaBan;
         private System.Windows.Forms.DataGridViewTextBoxColumn colGiaMua;
         private System.Windows.Forms.DataGridViewTextBoxColumn colThanhTien;
+        private Bunifu.Framework.UI.BunifuThinButton2 btnHuyHoaDon;
         private Bunifu.Framework.UI.BunifuThinButton2 btnDong;
         private Bunifu.Framework.UI.BunifuThinButton2 btnReset;
         private Bunifu.Framework.UI.BunifuThinButton2 btnInHoaDon;
-        private Bunifu.Framework.UI.BunifuThinButton2 btnHuyHoaDon;
         private Bunifu.Framework.UI.BunifuThinButton2 btnLuuHoaDon;
+        private Bunifu.Framework.UI.BunifuCustomLabel lblHoaDon;
+        private System.Windows.Forms.Panel panelThongTinChung;
+        private System.Windows.Forms.ComboBox cboMaNV;
+        private DevExpress.XtraEditors.DateEdit dtpNgayLap;
+        private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel4;
+        private Bunifu.Framework.UI.BunifuCustomLabel lblNgaySinh;
+        private Bunifu.Framework.UI.BunifuCustomLabel lblDiaChi;
+        private Bunifu.Framework.UI.BunifuCustomLabel lblMaNV;
+        private Bunifu.Framework.UI.BunifuCustomLabel lblTenKH;
+        private Bunifu.Framework.UI.BunifuCustomLabel lblNgayBan;
+        private Bunifu.Framework.UI.BunifuMetroTextbox txtSDT;
+        private Bunifu.Framework.UI.BunifuMetroTextbox txtDiaChi;
+        private Bunifu.Framework.UI.BunifuMetroTextbox txtTenKH;
+        private Bunifu.Framework.UI.BunifuMetroTextbox txtTenNhanVien;
+        private Bunifu.Framework.UI.BunifuMetroTextbox txtMaNV;
+        private Bunifu.Framework.UI.BunifuCustomLabel lblMaHD;
+        private System.Windows.Forms.Panel panel3;
+        private Bunifu.Framework.UI.BunifuCustomLabel lblThongTinChung;
+        private Bunifu.Framework.UI.BunifuThinButton2 btnLuuKH;
+        private Bunifu.Framework.UI.BunifuThinButton2 btnTaoMoiKhachHang;
+        private Bunifu.Framework.UI.BunifuElipse bunifuElipse1;
     }
 }

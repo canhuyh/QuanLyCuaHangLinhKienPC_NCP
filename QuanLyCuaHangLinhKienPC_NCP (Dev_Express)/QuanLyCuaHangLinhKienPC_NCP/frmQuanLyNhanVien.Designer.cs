@@ -96,11 +96,11 @@
             this.lblBannerQuanLyNhanVien.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lblBannerQuanLyNhanVien.AutoSize = true;
             this.transitionPanelTTK.SetDecoration(this.lblBannerQuanLyNhanVien, BunifuAnimatorNS.DecorationType.None);
-            this.lblBannerQuanLyNhanVien.Font = new System.Drawing.Font("SVN-Beast", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblBannerQuanLyNhanVien.Font = new System.Drawing.Font("SVN-Beast", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblBannerQuanLyNhanVien.ForeColor = System.Drawing.Color.White;
-            this.lblBannerQuanLyNhanVien.Location = new System.Drawing.Point(394, 9);
+            this.lblBannerQuanLyNhanVien.Location = new System.Drawing.Point(361, 9);
             this.lblBannerQuanLyNhanVien.Name = "lblBannerQuanLyNhanVien";
-            this.lblBannerQuanLyNhanVien.Size = new System.Drawing.Size(317, 45);
+            this.lblBannerQuanLyNhanVien.Size = new System.Drawing.Size(394, 51);
             this.lblBannerQuanLyNhanVien.TabIndex = 1;
             this.lblBannerQuanLyNhanVien.Text = "QUẢN LÝ NHÂN VIÊN";
             // 

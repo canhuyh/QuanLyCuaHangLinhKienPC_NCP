@@ -20,7 +20,7 @@ namespace QuanLyCuaHangLinhKienPC_NCP
         private void btnLapHoaDon_Click(object sender, EventArgs e)
         {
             frmLapHoaDon frmLHD = new frmLapHoaDon();
-            frmLHD.Show();
+            frmLHD.ShowDialog();
         }
     }
 }

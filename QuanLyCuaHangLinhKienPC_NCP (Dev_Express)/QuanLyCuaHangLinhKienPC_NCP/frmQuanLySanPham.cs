@@ -52,7 +52,7 @@ namespace QuanLyCuaHangLinhKienPC_NCP
         private void btnNhapHang_Click(object sender, EventArgs e)
         {
             frmNhapHang frmNH = new frmNhapHang();
-            frmNH.Show();
+            frmNH.ShowDialog();
         }
     }
 }

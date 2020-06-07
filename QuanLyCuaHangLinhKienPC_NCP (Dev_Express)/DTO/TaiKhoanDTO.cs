@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace DTO
 {
-    public class Class1
+    public class TaiKhoanDTO
     {
+        
     }
 }

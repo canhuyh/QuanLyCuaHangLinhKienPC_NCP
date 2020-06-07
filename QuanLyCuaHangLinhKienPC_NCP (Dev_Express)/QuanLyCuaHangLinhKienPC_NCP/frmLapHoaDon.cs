@@ -34,10 +34,14 @@ namespace QuanLyCuaHangLinhKienPC_NCP
             txtTenKH.Enabled = false;
             txtDiaChi.Enabled = false;
         }
-
         private void btnDong_Click(object sender, EventArgs e)
         {
             this.Hide();
+        }
+
+        private void btnReset_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

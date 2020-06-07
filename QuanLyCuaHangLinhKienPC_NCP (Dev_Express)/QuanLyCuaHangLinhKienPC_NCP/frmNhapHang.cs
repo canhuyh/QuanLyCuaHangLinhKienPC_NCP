@@ -25,7 +25,6 @@ namespace QuanLyCuaHangLinhKienPC_NCP
                 //panel thông tin sản phẩm
                 cboMaSP.Enabled = true;
                 txtTenSP.Enabled = true;
-                dtpNgayNhap.Enabled = true;
                 cboLoai.Enabled = true;
                 numericSoLuong.Enabled = true;
                 txtGiaGoc.Enabled = true;
@@ -60,7 +59,6 @@ namespace QuanLyCuaHangLinhKienPC_NCP
                 //panel thông tin sản phẩm
                 cboMaSP.Enabled = false;
                 txtTenSP.Enabled = false;
-                dtpNgayNhap.Enabled = false;
                 cboLoai.Enabled = false;
                 numericSoLuong.Enabled = false;
                 txtGiaGoc.Enabled = false;
@@ -82,7 +80,6 @@ namespace QuanLyCuaHangLinhKienPC_NCP
                 txtMaPhieu.Focus();
             }
         }
-
         private void btnDong_Click(object sender, EventArgs e)
         {
             this.Hide();
