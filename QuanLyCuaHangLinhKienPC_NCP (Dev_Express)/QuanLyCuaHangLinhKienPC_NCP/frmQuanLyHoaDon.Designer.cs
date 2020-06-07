@@ -39,13 +39,12 @@
             this.txtTimKiemNhanh = new Bunifu.Framework.UI.BunifuMetroTextbox();
             this.lblTimKiemNhanh = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.dgvDanhSachNV = new Bunifu.Framework.UI.BunifuCustomDataGrid();
+            this.bunifuCustomLabel4 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.btnLapHoaDon = new Bunifu.Framework.UI.BunifuThinButton2();
             this.colMaHD = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colNgayLap = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colNhanVienLap = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colSDTKhachHang = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colThanhTien = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.bunifuCustomLabel4 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.btnLapHoaDon = new Bunifu.Framework.UI.BunifuThinButton2();
             ((System.ComponentModel.ISupportInitialize)(this.dgvDanhSachNV)).BeginInit();
             this.SuspendLayout();
             // 
@@ -120,8 +119,7 @@
             this.colMaHD,
             this.colNgayLap,
             this.colNhanVienLap,
-            this.colSDTKhachHang,
-            this.colThanhTien});
+            this.colSDTKhachHang});
             dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Window;
             dataGridViewCellStyle3.Font = new System.Drawing.Font("SVN-Beast", 12F);
@@ -145,36 +143,6 @@
             this.dgvDanhSachNV.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.CellSelect;
             this.dgvDanhSachNV.Size = new System.Drawing.Size(1088, 585);
             this.dgvDanhSachNV.TabIndex = 32;
-            // 
-            // colMaHD
-            // 
-            this.colMaHD.HeaderText = "Mã hóa đơn";
-            this.colMaHD.Name = "colMaHD";
-            this.colMaHD.ReadOnly = true;
-            // 
-            // colNgayLap
-            // 
-            this.colNgayLap.HeaderText = "Ngày lập";
-            this.colNgayLap.Name = "colNgayLap";
-            this.colNgayLap.ReadOnly = true;
-            // 
-            // colNhanVienLap
-            // 
-            this.colNhanVienLap.HeaderText = "Nhân viên lập";
-            this.colNhanVienLap.Name = "colNhanVienLap";
-            this.colNhanVienLap.ReadOnly = true;
-            // 
-            // colSDTKhachHang
-            // 
-            this.colSDTKhachHang.HeaderText = "SDT Khách hàng";
-            this.colSDTKhachHang.Name = "colSDTKhachHang";
-            this.colSDTKhachHang.ReadOnly = true;
-            // 
-            // colThanhTien
-            // 
-            this.colThanhTien.HeaderText = "Thành tiền";
-            this.colThanhTien.Name = "colThanhTien";
-            this.colThanhTien.ReadOnly = true;
             // 
             // bunifuCustomLabel4
             // 
@@ -213,6 +181,30 @@
             this.btnLapHoaDon.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btnLapHoaDon.Click += new System.EventHandler(this.btnLapHoaDon_Click);
             // 
+            // colMaHD
+            // 
+            this.colMaHD.HeaderText = "Mã hóa đơn";
+            this.colMaHD.Name = "colMaHD";
+            this.colMaHD.ReadOnly = true;
+            // 
+            // colNgayLap
+            // 
+            this.colNgayLap.HeaderText = "Ngày lập";
+            this.colNgayLap.Name = "colNgayLap";
+            this.colNgayLap.ReadOnly = true;
+            // 
+            // colNhanVienLap
+            // 
+            this.colNhanVienLap.HeaderText = "Nhân viên lập";
+            this.colNhanVienLap.Name = "colNhanVienLap";
+            this.colNhanVienLap.ReadOnly = true;
+            // 
+            // colSDTKhachHang
+            // 
+            this.colSDTKhachHang.HeaderText = "SDT Khách hàng";
+            this.colSDTKhachHang.Name = "colSDTKhachHang";
+            this.colSDTKhachHang.ReadOnly = true;
+            // 
             // frmQuanLyHoaDon
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -247,6 +239,5 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn colNgayLap;
         private System.Windows.Forms.DataGridViewTextBoxColumn colNhanVienLap;
         private System.Windows.Forms.DataGridViewTextBoxColumn colSDTKhachHang;
-        private System.Windows.Forms.DataGridViewTextBoxColumn colThanhTien;
     }
 }

@@ -46,8 +46,6 @@
             this.lblBaoHanh = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.cboLoai = new System.Windows.Forms.ComboBox();
             this.bunifuCustomLabel3 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.dtpNgayNhap = new DevExpress.XtraEditors.DateEdit();
-            this.bunifuCustomLabel2 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.txtTenSP = new Bunifu.Framework.UI.BunifuMetroTextbox();
             this.lblTenSP = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.txtGiaBan = new Bunifu.Framework.UI.BunifuMetroTextbox();
@@ -96,8 +94,6 @@
             this.panelThongTinSanPham.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericKhuyenMai.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericSoLuong.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dtpNgayNhap.Properties.CalendarTimeProperties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dtpNgayNhap.Properties)).BeginInit();
             this.panel1.SuspendLayout();
             this.panelThongTinPhieuNhap.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericSoLuongNhapOfTTPN.Properties)).BeginInit();
@@ -126,8 +122,6 @@
             this.panelThongTinSanPham.Controls.Add(this.lblBaoHanh);
             this.panelThongTinSanPham.Controls.Add(this.cboLoai);
             this.panelThongTinSanPham.Controls.Add(this.bunifuCustomLabel3);
-            this.panelThongTinSanPham.Controls.Add(this.dtpNgayNhap);
-            this.panelThongTinSanPham.Controls.Add(this.bunifuCustomLabel2);
             this.panelThongTinSanPham.Controls.Add(this.txtTenSP);
             this.panelThongTinSanPham.Controls.Add(this.lblTenSP);
             this.panelThongTinSanPham.Controls.Add(this.txtGiaBan);
@@ -156,7 +150,7 @@
             0,
             0});
             this.numericKhuyenMai.Enabled = false;
-            this.numericKhuyenMai.Location = new System.Drawing.Point(137, 146);
+            this.numericKhuyenMai.Location = new System.Drawing.Point(943, 102);
             this.numericKhuyenMai.Name = "numericKhuyenMai";
             this.numericKhuyenMai.Properties.Appearance.Font = new System.Drawing.Font("SVN-Beast", 11.25F);
             this.numericKhuyenMai.Properties.Appearance.Options.UseFont = true;
@@ -169,7 +163,7 @@
             0,
             0,
             0});
-            this.numericKhuyenMai.Size = new System.Drawing.Size(92, 28);
+            this.numericKhuyenMai.Size = new System.Drawing.Size(88, 28);
             this.numericKhuyenMai.TabIndex = 16;
             // 
             // numericSoLuong
@@ -180,7 +174,7 @@
             0,
             0});
             this.numericSoLuong.Enabled = false;
-            this.numericSoLuong.Location = new System.Drawing.Point(139, 104);
+            this.numericSoLuong.Location = new System.Drawing.Point(914, 58);
             this.numericSoLuong.Name = "numericSoLuong";
             this.numericSoLuong.Properties.Appearance.Font = new System.Drawing.Font("SVN-Beast", 11.25F);
             this.numericSoLuong.Properties.Appearance.Options.UseFont = true;
@@ -188,7 +182,7 @@
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.numericSoLuong.Properties.IsFloatValue = false;
             this.numericSoLuong.Properties.Mask.EditMask = "N00";
-            this.numericSoLuong.Size = new System.Drawing.Size(90, 28);
+            this.numericSoLuong.Size = new System.Drawing.Size(117, 28);
             this.numericSoLuong.TabIndex = 12;
             // 
             // cboXuatXu
@@ -203,9 +197,9 @@
             "Admin",
             "Thu Ngân",
             "Chăm Sóc Khách Hàng"});
-            this.cboXuatXu.Location = new System.Drawing.Point(662, 147);
+            this.cboXuatXu.Location = new System.Drawing.Point(638, 146);
             this.cboXuatXu.Name = "cboXuatXu";
-            this.cboXuatXu.Size = new System.Drawing.Size(138, 30);
+            this.cboXuatXu.Size = new System.Drawing.Size(107, 30);
             this.cboXuatXu.TabIndex = 17;
             // 
             // cboBaoHanh
@@ -220,9 +214,9 @@
             "Admin",
             "Thu Ngân",
             "Chăm Sóc Khách Hàng"});
-            this.cboBaoHanh.Location = new System.Drawing.Point(914, 104);
+            this.cboBaoHanh.Location = new System.Drawing.Point(652, 103);
             this.cboBaoHanh.Name = "cboBaoHanh";
-            this.cboBaoHanh.Size = new System.Drawing.Size(117, 30);
+            this.cboBaoHanh.Size = new System.Drawing.Size(93, 30);
             this.cboBaoHanh.TabIndex = 15;
             // 
             // cboNhaCungCapOfTTSP
@@ -237,9 +231,9 @@
             "Admin",
             "Thu Ngân",
             "Chăm Sóc Khách Hàng"});
-            this.cboNhaCungCapOfTTSP.Location = new System.Drawing.Point(377, 146);
+            this.cboNhaCungCapOfTTSP.Location = new System.Drawing.Point(376, 146);
             this.cboNhaCungCapOfTTSP.Name = "cboNhaCungCapOfTTSP";
-            this.cboNhaCungCapOfTTSP.Size = new System.Drawing.Size(90, 30);
+            this.cboNhaCungCapOfTTSP.Size = new System.Drawing.Size(140, 30);
             this.cboNhaCungCapOfTTSP.TabIndex = 8;
             // 
             // cboMaSP
@@ -275,7 +269,7 @@
             this.lblBaoHanh.AutoSize = true;
             this.lblBaoHanh.Font = new System.Drawing.Font("SVN-Beast", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblBaoHanh.ForeColor = System.Drawing.Color.White;
-            this.lblBaoHanh.Location = new System.Drawing.Point(823, 106);
+            this.lblBaoHanh.Location = new System.Drawing.Point(561, 105);
             this.lblBaoHanh.Name = "lblBaoHanh";
             this.lblBaoHanh.Size = new System.Drawing.Size(85, 23);
             this.lblBaoHanh.TabIndex = 12;
@@ -293,9 +287,9 @@
             "Admin",
             "Thu Ngân",
             "Chăm Sóc Khách Hàng"});
-            this.cboLoai.Location = new System.Drawing.Point(875, 59);
+            this.cboLoai.Location = new System.Drawing.Point(613, 59);
             this.cboLoai.Name = "cboLoai";
-            this.cboLoai.Size = new System.Drawing.Size(156, 30);
+            this.cboLoai.Size = new System.Drawing.Size(132, 30);
             this.cboLoai.TabIndex = 11;
             // 
             // bunifuCustomLabel3
@@ -303,39 +297,11 @@
             this.bunifuCustomLabel3.AutoSize = true;
             this.bunifuCustomLabel3.Font = new System.Drawing.Font("SVN-Beast", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuCustomLabel3.ForeColor = System.Drawing.Color.White;
-            this.bunifuCustomLabel3.Location = new System.Drawing.Point(823, 61);
+            this.bunifuCustomLabel3.Location = new System.Drawing.Point(561, 61);
             this.bunifuCustomLabel3.Name = "bunifuCustomLabel3";
             this.bunifuCustomLabel3.Size = new System.Drawing.Size(46, 23);
             this.bunifuCustomLabel3.TabIndex = 12;
             this.bunifuCustomLabel3.Text = "Loại :";
-            // 
-            // dtpNgayNhap
-            // 
-            this.dtpNgayNhap.EditValue = new System.DateTime(2020, 5, 8, 23, 51, 32, 0);
-            this.dtpNgayNhap.Enabled = false;
-            this.dtpNgayNhap.Location = new System.Drawing.Point(662, 59);
-            this.dtpNgayNhap.Name = "dtpNgayNhap";
-            this.dtpNgayNhap.Properties.Appearance.Font = new System.Drawing.Font("SVN-Beast", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dtpNgayNhap.Properties.Appearance.Options.UseFont = true;
-            this.dtpNgayNhap.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.dtpNgayNhap.Properties.CalendarTimeProperties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.dtpNgayNhap.Properties.DisplayFormat.FormatString = "dd/MM/yyyy";
-            this.dtpNgayNhap.Properties.DisplayFormat.FormatType = DevExpress.Utils.FormatType.DateTime;
-            this.dtpNgayNhap.Size = new System.Drawing.Size(138, 28);
-            this.dtpNgayNhap.TabIndex = 10;
-            // 
-            // bunifuCustomLabel2
-            // 
-            this.bunifuCustomLabel2.AutoSize = true;
-            this.bunifuCustomLabel2.Font = new System.Drawing.Font("SVN-Beast", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuCustomLabel2.ForeColor = System.Drawing.Color.White;
-            this.bunifuCustomLabel2.Location = new System.Drawing.Point(558, 61);
-            this.bunifuCustomLabel2.Name = "bunifuCustomLabel2";
-            this.bunifuCustomLabel2.Size = new System.Drawing.Size(98, 23);
-            this.bunifuCustomLabel2.TabIndex = 12;
-            this.bunifuCustomLabel2.Text = "Ngày nhập :";
             // 
             // txtTenSP
             // 
@@ -380,11 +346,11 @@
             this.txtGiaBan.Font = new System.Drawing.Font("SVN-Beast", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtGiaBan.ForeColor = System.Drawing.Color.Silver;
             this.txtGiaBan.isPassword = false;
-            this.txtGiaBan.Location = new System.Drawing.Point(662, 103);
+            this.txtGiaBan.Location = new System.Drawing.Point(335, 103);
             this.txtGiaBan.Margin = new System.Windows.Forms.Padding(4);
             this.txtGiaBan.MaxLength = 32767;
             this.txtGiaBan.Name = "txtGiaBan";
-            this.txtGiaBan.Size = new System.Drawing.Size(138, 28);
+            this.txtGiaBan.Size = new System.Drawing.Size(181, 28);
             this.txtGiaBan.TabIndex = 14;
             this.txtGiaBan.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
@@ -400,11 +366,11 @@
             this.txtGiaGoc.Font = new System.Drawing.Font("SVN-Beast", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtGiaGoc.ForeColor = System.Drawing.Color.Silver;
             this.txtGiaGoc.isPassword = false;
-            this.txtGiaGoc.Location = new System.Drawing.Point(375, 103);
+            this.txtGiaGoc.Location = new System.Drawing.Point(100, 103);
             this.txtGiaGoc.Margin = new System.Windows.Forms.Padding(4);
             this.txtGiaGoc.MaxLength = 32767;
             this.txtGiaGoc.Name = "txtGiaGoc";
-            this.txtGiaGoc.Size = new System.Drawing.Size(141, 28);
+            this.txtGiaGoc.Size = new System.Drawing.Size(129, 28);
             this.txtGiaGoc.TabIndex = 13;
             this.txtGiaGoc.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
@@ -413,7 +379,7 @@
             this.lblGiaBan.AutoSize = true;
             this.lblGiaBan.Font = new System.Drawing.Font("SVN-Beast", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblGiaBan.ForeColor = System.Drawing.Color.White;
-            this.lblGiaBan.Location = new System.Drawing.Point(558, 105);
+            this.lblGiaBan.Location = new System.Drawing.Point(255, 105);
             this.lblGiaBan.Name = "lblGiaBan";
             this.lblGiaBan.Size = new System.Drawing.Size(75, 23);
             this.lblGiaBan.TabIndex = 12;
@@ -424,7 +390,7 @@
             this.lblKhuyenMai.AutoSize = true;
             this.lblKhuyenMai.Font = new System.Drawing.Font("SVN-Beast", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblKhuyenMai.ForeColor = System.Drawing.Color.White;
-            this.lblKhuyenMai.Location = new System.Drawing.Point(17, 149);
+            this.lblKhuyenMai.Location = new System.Drawing.Point(823, 105);
             this.lblKhuyenMai.Name = "lblKhuyenMai";
             this.lblKhuyenMai.Size = new System.Drawing.Size(101, 23);
             this.lblKhuyenMai.TabIndex = 12;
@@ -435,7 +401,7 @@
             this.lblGiaGoc.AutoSize = true;
             this.lblGiaGoc.Font = new System.Drawing.Font("SVN-Beast", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblGiaGoc.ForeColor = System.Drawing.Color.White;
-            this.lblGiaGoc.Location = new System.Drawing.Point(255, 105);
+            this.lblGiaGoc.Location = new System.Drawing.Point(17, 105);
             this.lblGiaGoc.Name = "lblGiaGoc";
             this.lblGiaGoc.Size = new System.Drawing.Size(76, 23);
             this.lblGiaGoc.TabIndex = 12;
@@ -446,7 +412,7 @@
             this.lblSoLuong.AutoSize = true;
             this.lblSoLuong.Font = new System.Drawing.Font("SVN-Beast", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblSoLuong.ForeColor = System.Drawing.Color.White;
-            this.lblSoLuong.Location = new System.Drawing.Point(17, 106);
+            this.lblSoLuong.Location = new System.Drawing.Point(823, 59);
             this.lblSoLuong.Name = "lblSoLuong";
             this.lblSoLuong.Size = new System.Drawing.Size(80, 23);
             this.lblSoLuong.TabIndex = 12;
@@ -457,7 +423,7 @@
             this.lblNhaCungCapOfTTSP.AutoSize = true;
             this.lblNhaCungCapOfTTSP.Font = new System.Drawing.Font("SVN-Beast", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblNhaCungCapOfTTSP.ForeColor = System.Drawing.Color.White;
-            this.lblNhaCungCapOfTTSP.Location = new System.Drawing.Point(255, 148);
+            this.lblNhaCungCapOfTTSP.Location = new System.Drawing.Point(254, 148);
             this.lblNhaCungCapOfTTSP.Name = "lblNhaCungCapOfTTSP";
             this.lblNhaCungCapOfTTSP.Size = new System.Drawing.Size(121, 23);
             this.lblNhaCungCapOfTTSP.TabIndex = 12;
@@ -678,7 +644,7 @@
             "Chăm Sóc Khách Hàng"});
             this.cboNhaCungCapOfTTPN.Location = new System.Drawing.Point(675, 57);
             this.cboNhaCungCapOfTTPN.Name = "cboNhaCungCapOfTTPN";
-            this.cboNhaCungCapOfTTPN.Size = new System.Drawing.Size(138, 30);
+            this.cboNhaCungCapOfTTPN.Size = new System.Drawing.Size(194, 30);
             this.cboNhaCungCapOfTTPN.TabIndex = 3;
             // 
             // lblNhaCungCap
@@ -1066,8 +1032,6 @@
             this.panelThongTinSanPham.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericKhuyenMai.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericSoLuong.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dtpNgayNhap.Properties.CalendarTimeProperties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dtpNgayNhap.Properties)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panelThongTinPhieuNhap.ResumeLayout(false);
@@ -1113,8 +1077,6 @@
         private Bunifu.Framework.UI.BunifuCustomLabel lblBaoHanh;
         private System.Windows.Forms.ComboBox cboLoai;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel3;
-        private DevExpress.XtraEditors.DateEdit dtpNgayNhap;
-        private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel2;
         private Bunifu.Framework.UI.BunifuMetroTextbox txtTenSP;
         private Bunifu.Framework.UI.BunifuCustomLabel lblTenSP;
         private Bunifu.Framework.UI.BunifuMetroTextbox txtGiaBan;

@@ -18,7 +18,7 @@ namespace QuanLyCuaHangLinhKienPC_NCP
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmDangNhapTest());
+            Application.Run(new frmQuanLy());
         }
     }
 }
